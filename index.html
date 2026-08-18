@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Registre de signaux — publiés avant l'ouverture, résultats horodatés</title>
+<meta name="description" content="Registre public et horodaté : listes publiées avant l'ouverture du marché, résultats mesurés ensuite.">
+<meta name="robots" content="noindex, nofollow">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="head">
+  <h1>Registre de signaux</h1>
+  <p class="lead">
+    Chaque jour de bourse, une liste est publiée <strong>avant l'ouverture</strong> du marché concerné,
+    puis son résultat est mesuré. Rien n'est réécrit après coup&nbsp;: chaque publication est un commit
+    daté et signé par GitHub, ancré dans la blockchain Bitcoin.
+    <a href="#verif">Comment le vérifier soi-même</a>.
+  </p>
+  <p class="warn" role="note">
+    Aucun conseil en investissement. Registre personnel, publié pour être vérifiable, pas pour être
+    suivi. Les performances passées ne préjugent pas des performances futures.
+  </p>
+</header>
+
+<main>
+
+  <!-- ── Candidats du jour ─────────────────────────────────────────────── -->
+  <section id="candidats">
+    <div class="sec-head">
+      <h2>Candidats</h2>
+      <!-- L'archive vit EN TÊTE : elle pilote ce que montrent les deux cartes,
+           elle doit donc se lire avant elles, pas après. -->
+      <div class="archive">
+        <span class="archive-state">Séance&nbsp;: <strong data-role="archive-day">la plus récente</strong></span>
+        <label class="sr-only" for="day-pick">Choisir une séance</label>
+        <select id="day-pick"><option value="">Séance la plus récente</option></select>
+        <span class="hint-inline" data-role="archive-note"></span>
+      </div>
+    </div>
+
+    <div class="grid-2">
+      <div class="market card" data-market="us">
+        <div class="market-head">
+          <h3>États-Unis</h3>
+          <span class="regime" data-role="regime">—</span>
+        </div>
+        <p class="meta" data-role="meta"></p>
+        <div class="table-wrap"><table data-role="cand-table"><tbody></tbody></table></div>
+        <p class="empty" data-role="empty" hidden></p>
+      </div>
+
+      <div class="market card" data-market="eu">
+        <div class="market-head">
+          <h3>Europe</h3>
+          <span class="regime" data-role="regime">—</span>
+        </div>
+        <p class="meta" data-role="meta"></p>
+        <div class="table-wrap"><table data-role="cand-table"><tbody></tbody></table></div>
+        <p class="empty" data-role="empty" hidden></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Résultats ─────────────────────────────────────────────────────── -->
+  <section id="resultats">
+    <div class="sec-head">
+      <h2>Résultats</h2>
+      <p class="hint">
+        Tous les signaux publiés, sans sélection. Performance nette de frais estimés, une ligne par
+        signal, sans levier ni composition des gains.
+      </p>
+    </div>
+
+    <div class="market card" data-market="us">
+      <h3>États-Unis</h3>
+      <div class="tiles" data-role="tiles"></div>
+      <div class="chart-wrap"><canvas data-role="chart"></canvas></div>
+      <p class="chart-legend" data-role="chart-note"></p>
+      <div class="table-wrap"><table data-role="track-table"><tbody></tbody></table></div>
+      <button type="button" class="more" data-role="more" hidden>Afficher plus de lignes</button>
+    </div>
+
+    <div class="market card" data-market="eu">
+      <h3>Europe</h3>
+      <div class="tiles" data-role="tiles"></div>
+      <div class="chart-wrap"><canvas data-role="chart"></canvas></div>
+      <p class="chart-legend" data-role="chart-note"></p>
+      <div class="table-wrap"><table data-role="track-table"><tbody></tbody></table></div>
+      <button type="button" class="more" data-role="more" hidden>Afficher plus de lignes</button>
+    </div>
+  </section>
+
+  <!-- ── Vérifiabilité ─────────────────────────────────────────────────── -->
+  <section id="verif">
+    <div class="sec-head">
+      <h2>Vérifier que rien n'a été antidaté</h2>
+      <p class="hint">
+        Un registre n'a de valeur que si l'on peut prouver que la liste a été écrite <em>avant</em> d'en
+        connaître l'issue. Trois mécanismes indépendants le garantissent, et aucun ne demande de me faire
+        confiance.
+      </p>
+    </div>
+
+    <div class="grid-3">
+      <div class="card proof">
+        <h3>Commits datés et signés</h3>
+        <p>
+          Chaque fichier est écrit par l'API de GitHub, qui <strong>date le commit elle-même</strong> et
+          le <strong>signe</strong> (mention «&nbsp;Verified&nbsp;»). La date ne vient donc pas de moi, et
+          l'enregistrement de vérification n'est pas modifiable après coup.
+        </p>
+        <p class="do"><a data-role="commits-link" href="#" rel="noopener">Parcourir l'historique</a></p>
+      </div>
+
+      <div class="card proof">
+        <h3>Ancrage dans Bitcoin</h3>
+        <p>
+          Pour ne pas avoir à croire GitHub non plus, l'empreinte de chaque fichier est ancrée dans la
+          blockchain via <a href="https://opentimestamps.org" rel="noopener">OpenTimestamps</a>&nbsp;:
+          un <code>.ots</code> par fichier, dans <code>proofs/</code>. Déposer le fichier et sa preuve sur
+          opentimestamps.org indique le bloc et la date à partir de laquelle ce contenu exact existait.
+        </p>
+      </div>
+
+      <div class="card proof">
+        <h3>La séquence horaire</h3>
+        <p>
+          Les listes européennes sont publiées vers 7&nbsp;h&nbsp;(Paris) pour une ouverture à
+          9&nbsp;h&nbsp;; les américaines vers 13&nbsp;h pour une ouverture à 15&nbsp;h&nbsp;30. L'écart
+          entre l'heure du commit et celle de l'ouverture se lit dans l'historique.
+        </p>
+      </div>
+    </div>
+
+    <p class="note-strong">
+      Publié aussi quand ça n'arrange pas&nbsp;: les séances <strong>sans aucun candidat</strong> le sont
+      au même titre que les autres, et les signaux perdants figurent dans les résultats — le rejeu prend
+      toutes les lignes, aucune n'est retirée.
+    </p>
+
+    <details class="limits">
+      <summary>Limites</summary>
+      <p>
+        Le rejeu hérite des limites usuelles de ce genre de mesure&nbsp;: exécution modélisée, frais
+        estimés. Et une performance moyenne par signal n'est pas une performance de portefeuille — elle ne
+        tient compte ni de la taille des positions, ni du capital immobilisé, ni de la composition.
+      </p>
+    </details>
+  </section>
+
+</main>
+
+<footer>
+  <p data-role="footer-meta"></p>
+  <p>Données au format JSON&nbsp;: <code>data/manifest.json</code>, <code>data/scans/&lt;marché&gt;/&lt;date&gt;.json</code>,
+     <code>data/track/&lt;marché&gt;.json</code>.</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
