@@ -12,9 +12,13 @@ demande de faire confiance à son auteur.
 ## Comment vérifier qu'aucune date n'a été antidatée
 
 1. **Historique des commits.** Chaque fichier de données est écrit par l'API GitHub,
-   qui date le commit elle-même et le signe (mention « Verified »). La date ne vient
-   donc pas de l'auteur. Une réécriture laisse une trace : l'ancienne version reste
-   dans l'historique.
+   qui date le commit elle-même : le programme qui publie n'envoie aucune date, alors
+   que l'API lui permettrait d'en imposer une. La date ne vient donc pas de l'auteur.
+   Une réécriture laisse une trace : l'ancienne version reste dans l'historique.
+
+   Ces commits ne sont pas signés cryptographiquement (l'API REST ne signe pas,
+   contrairement à l'interface web). C'est le point suivant qui apporte la preuve
+   opposable — et lui ne demande de faire confiance ni à GitHub, ni à l'auteur.
 2. **Ancrage Bitcoin.** Pour ne pas avoir à croire GitHub non plus, l'empreinte de
    chaque fichier est ancrée dans la blockchain Bitcoin via
    [OpenTimestamps](https://opentimestamps.org). Les preuves sont dans `proofs/`.
