@@ -1,0 +1,33 @@
+{
+    "schema": 2,
+    "kind": "scan",
+    "market": "eu",
+    "computed_at": "2026-08-18T07:00:46+02:00",
+    "scan_date": "2026-08-18",
+    "close_date": "2026-08-17",
+    "regime": {
+        "env": "defav",
+        "env_label": "Défavorable"
+    },
+    "n": 3,
+    "candidates": [
+        {
+            "ticker": "EOAN.DE",
+            "last": 17.43,
+            "target_pct": 8.02,
+            "stop_pct": -5.16
+        },
+        {
+            "ticker": "STLAP.PA",
+            "last": 4.44,
+            "target_pct": 10.57,
+            "stop_pct": -9.27
+        },
+        {
+            "ticker": "GBLB.BR",
+            "last": 73.3,
+            "target_pct": 5.74,
+            "stop_pct": -3.06
+        }
+    ]
+}
