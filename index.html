@@ -15,7 +15,7 @@
   <p class="lead">
     Chaque jour de bourse, une liste est publiée <strong>avant l'ouverture</strong> du marché concerné,
     puis son résultat est mesuré. Rien n'est réécrit après coup&nbsp;: chaque publication est un commit
-    daté et signé par GitHub, ancré dans la blockchain Bitcoin.
+    daté par GitHub, dont l'empreinte est ancrée dans la blockchain Bitcoin.
     <a href="#verif">Comment le vérifier soi-même</a>.
   </p>
   <p class="warn" role="note">
@@ -105,11 +105,12 @@
 
     <div class="grid-3">
       <div class="card proof">
-        <h3>Commits datés et signés</h3>
+        <h3>Commits datés par GitHub</h3>
         <p>
-          Chaque fichier est écrit par l'API de GitHub, qui <strong>date le commit elle-même</strong> et
-          le <strong>signe</strong> (mention «&nbsp;Verified&nbsp;»). La date ne vient donc pas de moi, et
-          l'enregistrement de vérification n'est pas modifiable après coup.
+          Chaque fichier est écrit par l'API de GitHub, qui <strong>date le commit elle-même</strong>&nbsp;:
+          le programme qui publie n'envoie aucune date, alors que l'API lui permettrait d'en imposer une.
+          Ces commits ne sont pas signés cryptographiquement — c'est l'ancrage Bitcoin ci-contre qui joue
+          ce rôle, et lui ne demande de faire confiance à personne.
         </p>
         <p class="do"><a data-role="commits-link" href="#" rel="noopener">Parcourir l'historique</a></p>
       </div>
