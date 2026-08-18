@@ -26,8 +26,15 @@ on:
 permissions:
   contents: write
 
-# Les publications peuvent arriver rapprochées (deux marchés) : on sérialise pour
-# ne jamais pousser deux commits de preuves concurrents.
+# Les publications arrivent en RAFALE : l'API Contents produit un commit par
+# fichier, soit une dizaine de poussées en quelques secondes. On sérialise pour ne
+# jamais pousser deux commits de preuves concurrents.
+#
+# Attention — conséquence mesurée le 18/08/2026, qui dicte l'étape ci-dessous :
+# même avec cancel-in-progress: false, GitHub ne garde qu'UNE exécution en attente
+# par groupe et ANNULE les précédentes. Sur une rafale de douze commits, la plupart
+# des runs sont donc annulés. Une étape qui n'horodaterait que les fichiers de SON
+# commit laisserait ces fichiers-là sans preuve, définitivement.
 concurrency:
   group: horodatage
   cancel-in-progress: false
@@ -38,23 +45,20 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-        with: { fetch-depth: 2 }
       - uses: actions/setup-python@v5
         with: { python-version: '3.x' }
       - run: pip install --quiet opentimestamps-client
 
-      - name: Horodater les fichiers de ce commit
+      - name: Horodater tout fichier sans preuve
         run: |
           set -euo pipefail
-          # L'API Contents produit un commit par fichier : lister les fichiers du
-          # commit courant suffit, et évite de re-horodater tout l'historique.
-          # Attention, --root : sans lui, un commit SANS PARENT (réinitialisation du dépôt)
-          # ne liste aucun fichier — ses données ne seraient jamais horodatées, et
-          # en silence. Le cas ne devrait pas se produire (une réinitialisation ne
-          # commite que le README), mais la garde ne coûte qu'un mot.
-          files=$(git diff-tree --no-commit-id --name-only -r --root "$GITHUB_SHA" -- 'data/' || true)
-          for f in $files; do
-            [ -f "$f" ] || continue
+          # On balaie TOUT le registre plutôt que le seul commit déclencheur : c'est
+          # ce qui rend l'horodatage auto-réparateur. Un run annulé (cf. la note sur
+          # la concurrence) ne perd plus rien — le run suivant rattrape ses fichiers.
+          # Le balayage est borné par le nombre de fichiers publiés et ne coûte qu'un
+          # sha256 + un test d'existence par fichier ; seuls les manquants sont ancrés.
+          manquants=0
+          while IFS= read -r f; do
             # La preuve porte l'empreinte du CONTENU dans son nom : une révision
             # ultérieure du même fichier crée une preuve distincte au lieu d'écraser
             # celle de la version précédente — chaque état publié reste vérifiable.
@@ -66,7 +70,9 @@ jobs:
             ots stamp "$f"
             mv "$f.ots" "$out"
             echo "horodate : $out"
-          done
+            manquants=$((manquants + 1))
+          done < <(find data -type f -name '*.json' | sort)
+          echo "$manquants fichier(s) nouvellement horodate(s)."
 
       - name: Publier les preuves
         run: |
