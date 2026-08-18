@@ -1,0 +1,7 @@
+# Les preuves OpenTimestamps sont binaires : ni diff, ni conversion de fins de ligne
+# (une seule modification d'octet invaliderait la preuve).
+*.ots binary
+
+# Les fichiers du registre sont du JSON en UTF-8, fins de ligne LF : leur empreinte
+# doit rester identique quel que soit le systeme qui les relit.
+*.json text eol=lf
