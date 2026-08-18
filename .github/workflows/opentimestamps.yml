@@ -1,0 +1,115 @@
+# ════════════════════════════════════════════════════════════════════════════
+# Horodatage des fichiers du registre dans la blockchain Bitcoin.
+#
+# Les commits sont déjà datés et signés par GitHub, mais cela suppose de faire
+# confiance à GitHub. OpenTimestamps ancre l'empreinte de chaque fichier dans
+# Bitcoin : la preuve devient vérifiable par n'importe qui, sans dépendre de ce
+# dépôt, de son hébergeur, ni de son auteur.
+#
+# Deux temps, imposés par le protocole :
+#   • « stamp »   : à chaque publication — le calendrier public accuse réception
+#                   immédiatement, la preuve est alors « incomplète » ;
+#   • « upgrade » : une fois la transaction Bitcoin confirmée (quelques heures),
+#                   la preuve se complète et devient autonome. D'où le passage
+#                   hebdomadaire qui la consolide.
+# ════════════════════════════════════════════════════════════════════════════
+name: horodatage
+
+on:
+  push:
+    branches: [main]
+    paths: ['data/**.json']       # les commits de preuves ne se re-déclenchent pas eux-mêmes
+  schedule:
+    - cron: '23 4 * * 0'          # dimanche 04h23 UTC : consolidation des preuves
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+# Les publications peuvent arriver rapprochées (deux marchés) : on sérialise pour
+# ne jamais pousser deux commits de preuves concurrents.
+concurrency:
+  group: horodatage
+  cancel-in-progress: false
+
+jobs:
+  stamp:
+    if: github.event_name == 'push'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with: { fetch-depth: 2 }
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.x' }
+      - run: pip install --quiet opentimestamps-client
+
+      - name: Horodater les fichiers de ce commit
+        run: |
+          set -euo pipefail
+          # L'API Contents produit un commit par fichier : lister les fichiers du
+          # commit courant suffit, et évite de re-horodater tout l'historique.
+          # Attention, --root : sans lui, un commit SANS PARENT (réinitialisation du dépôt)
+          # ne liste aucun fichier — ses données ne seraient jamais horodatées, et
+          # en silence. Le cas ne devrait pas se produire (une réinitialisation ne
+          # commite que le README), mais la garde ne coûte qu'un mot.
+          files=$(git diff-tree --no-commit-id --name-only -r --root "$GITHUB_SHA" -- 'data/' || true)
+          for f in $files; do
+            [ -f "$f" ] || continue
+            # La preuve porte l'empreinte du CONTENU dans son nom : une révision
+            # ultérieure du même fichier crée une preuve distincte au lieu d'écraser
+            # celle de la version précédente — chaque état publié reste vérifiable.
+            h=$(sha256sum "$f" | cut -c1-16)
+            out="proofs/${f#data/}"
+            out="${out%.json}.$h.ots"
+            [ -f "$out" ] && continue
+            mkdir -p "$(dirname "$out")"
+            ots stamp "$f"
+            mv "$f.ots" "$out"
+            echo "horodate : $out"
+          done
+
+      - name: Publier les preuves
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email 'github-actions[bot]@users.noreply.github.com'
+          git add proofs || true
+          if git diff --cached --quiet; then
+            echo 'Aucune nouvelle preuve.'
+          else
+            git commit -m 'preuves opentimestamps'
+            git pull --rebase --autostash
+            git push
+          fi
+
+  upgrade:
+    if: github.event_name != 'push'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.x' }
+      - run: pip install --quiet opentimestamps-client
+
+      - name: Consolider les preuves confirmees
+        # `ots upgrade` sort en erreur quand une preuve est encore en attente :
+        # c'est un etat normal, pas un echec du job.
+        run: |
+          find proofs -name '*.ots' -print0 2>/dev/null \
+            | xargs -0 -r -n1 ots upgrade || true
+
+      - name: Publier les preuves consolidees
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email 'github-actions[bot]@users.noreply.github.com'
+          # `ots upgrade` laisse un .bak a cote de chaque preuve consolidee.
+          find proofs -name '*.ots.bak' -delete 2>/dev/null || true
+          git add proofs || true
+          if git diff --cached --quiet; then
+            echo 'Aucune preuve a consolider.'
+          else
+            git commit -m 'preuves opentimestamps (consolidation)'
+            git pull --rebase --autostash
+            git push
+          fi
