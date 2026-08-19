@@ -40,11 +40,22 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
+  # Tourne sur publication ET sur déclenchement manuel : l'étape étant devenue
+  # auto-réparatrice et idempotente, « Run workflow » est le bouton de rattrapage
+  # qui manquait — sans lui, un fichier resté sans preuve devait attendre la
+  # publication suivante pour être ancré.
   stamp:
-    if: github.event_name == 'push'
+    if: github.event_name != 'schedule'
     runs-on: ubuntu-latest
     steps:
+      # ref: main — et NON le commit déclencheur (le défaut). L'API Contents
+      # publie un fichier par commit : quand la rafale enchaîne plusieurs exécutions,
+      # celle qui démarre en dernier doit voir les preuves que la première vient de
+      # pousser. Sans ça elle les recalcule, produit un .ots différent sous le MÊME
+      # nom, et la publication échoue sur un conflit ajout/ajout — mesuré les 17 et
+      # 18/08/2026, et c'est ce qui faisait echouer le dernier commit de chaque rafale.
       - uses: actions/checkout@v4
+        with: { ref: main }
       - uses: actions/setup-python@v5
         with: { python-version: '3.x' }
       - run: pip install --quiet opentimestamps-client
@@ -76,23 +87,38 @@ jobs:
 
       - name: Publier les preuves
         run: |
-          set -euo pipefail
+          set -uo pipefail
           git config user.name 'github-actions[bot]'
           git config user.email 'github-actions[bot]@users.noreply.github.com'
           git add proofs || true
-          if git diff --cached --quiet; then
-            echo 'Aucune nouvelle preuve.'
-          else
-            git commit -m 'preuves opentimestamps'
-            git pull --rebase --autostash
-            git push
-          fi
+          if git diff --cached --quiet; then echo 'Rien a publier.'; exit 0; fi
+          git commit -m 'preuves opentimestamps'
+          # L'ancrage est deja fait a ce stade : une course de push ne doit pas
+          # faire echouer le job. On retente, et on laisse le passage suivant
+          # rattraper plutot que de crier — le balayage est auto-reparateur.
+          for i in 1 2 3; do
+            if git push; then echo "publie (tentative $i)"; exit 0; fi
+            echo "push refuse, resynchronisation (tentative $i)"
+            git fetch origin main || break
+            # -X ours : en cas de collision, la preuve DEJA publiee fait foi.
+            # Deux .ots du meme contenu se valent, il n'y a rien a arbitrer.
+            git rebase -X ours origin/main || { git rebase --abort || true; break; }
+          done
+          echo 'Publication des preuves remise au prochain passage.'
+
 
   upgrade:
     if: github.event_name != 'push'
     runs-on: ubuntu-latest
     steps:
+      # ref: main — et NON le commit déclencheur (le défaut). L'API Contents
+      # publie un fichier par commit : quand la rafale enchaîne plusieurs exécutions,
+      # celle qui démarre en dernier doit voir les preuves que la première vient de
+      # pousser. Sans ça elle les recalcule, produit un .ots différent sous le MÊME
+      # nom, et la publication échoue sur un conflit ajout/ajout — mesuré les 17 et
+      # 18/08/2026, et c'est ce qui faisait echouer le dernier commit de chaque rafale.
       - uses: actions/checkout@v4
+        with: { ref: main }
       - uses: actions/setup-python@v5
         with: { python-version: '3.x' }
       - run: pip install --quiet opentimestamps-client
@@ -106,16 +132,24 @@ jobs:
 
       - name: Publier les preuves consolidees
         run: |
-          set -euo pipefail
+          set -uo pipefail
           git config user.name 'github-actions[bot]'
           git config user.email 'github-actions[bot]@users.noreply.github.com'
           # `ots upgrade` laisse un .bak a cote de chaque preuve consolidee.
           find proofs -name '*.ots.bak' -delete 2>/dev/null || true
           git add proofs || true
-          if git diff --cached --quiet; then
-            echo 'Aucune preuve a consolider.'
-          else
-            git commit -m 'preuves opentimestamps (consolidation)'
-            git pull --rebase --autostash
-            git push
-          fi
+          if git diff --cached --quiet; then echo 'Rien a publier.'; exit 0; fi
+          git commit -m 'preuves opentimestamps (consolidation)'
+          # L'ancrage est deja fait a ce stade : une course de push ne doit pas
+          # faire echouer le job. On retente, et on laisse le passage suivant
+          # rattraper plutot que de crier — le balayage est auto-reparateur.
+          for i in 1 2 3; do
+            if git push; then echo "publie (tentative $i)"; exit 0; fi
+            echo "push refuse, resynchronisation (tentative $i)"
+            git fetch origin main || break
+            # -X ours : en cas de collision, la preuve DEJA publiee fait foi.
+            # Deux .ots du meme contenu se valent, il n'y a rien a arbitrer.
+            git rebase -X ours origin/main || { git rebase --abort || true; break; }
+          done
+          echo 'Publication des preuves remise au prochain passage.'
+
