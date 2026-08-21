@@ -1,0 +1,21 @@
+{
+    "schema": 2,
+    "kind": "scan",
+    "market": "us",
+    "computed_at": "2026-08-21T13:00:38+02:00",
+    "scan_date": "2026-08-21",
+    "close_date": "2026-08-20",
+    "regime": {
+        "env": "neutre",
+        "env_label": "Indécis"
+    },
+    "n": 1,
+    "candidates": [
+        {
+            "ticker": "WMT",
+            "last": 103.84,
+            "target_pct": 8.34,
+            "stop_pct": -5.67
+        }
+    ]
+}
