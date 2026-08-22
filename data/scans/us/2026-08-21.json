@@ -1,0 +1,14 @@
+{
+    "schema": 2,
+    "kind": "scan",
+    "market": "us",
+    "computed_at": "2026-08-22T09:00:55+02:00",
+    "scan_date": "2026-08-22",
+    "close_date": "2026-08-21",
+    "regime": {
+        "env": "neutre",
+        "env_label": "Indécis"
+    },
+    "n": 0,
+    "candidates": []
+}
