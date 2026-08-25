@@ -1,0 +1,21 @@
+{
+    "schema": 2,
+    "kind": "scan",
+    "market": "us",
+    "computed_at": "2026-08-25T13:00:37+02:00",
+    "scan_date": "2026-08-25",
+    "close_date": "2026-08-24",
+    "regime": {
+        "env": "neutre",
+        "env_label": "Indécis"
+    },
+    "n": 1,
+    "candidates": [
+        {
+            "ticker": "APP",
+            "last": 298.59,
+            "target_pct": 16.82,
+            "stop_pct": -12.75
+        }
+    ]
+}
