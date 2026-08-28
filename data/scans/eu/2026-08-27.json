@@ -1,0 +1,57 @@
+{
+    "schema": 2,
+    "kind": "scan",
+    "market": "eu",
+    "computed_at": "2026-08-28T07:00:48+02:00",
+    "scan_date": "2026-08-28",
+    "close_date": "2026-08-27",
+    "regime": {
+        "env": "neutre",
+        "env_label": "Indécis"
+    },
+    "n": 7,
+    "candidates": [
+        {
+            "ticker": "FGR.PA",
+            "last": 109.3,
+            "target_pct": 10.32,
+            "stop_pct": -4.03
+        },
+        {
+            "ticker": "FER.MC",
+            "last": 50.4,
+            "target_pct": 10.08,
+            "stop_pct": -5.12
+        },
+        {
+            "ticker": "EN.PA",
+            "last": 43.95,
+            "target_pct": 7.8,
+            "stop_pct": -3.78
+        },
+        {
+            "ticker": "ENGI.PA",
+            "last": 24.07,
+            "target_pct": 7.61,
+            "stop_pct": -3.89
+        },
+        {
+            "ticker": "ORA.PA",
+            "last": 15.07,
+            "target_pct": 7.06,
+            "stop_pct": -3.77
+        },
+        {
+            "ticker": "GLE.PA",
+            "last": 70.82,
+            "target_pct": 13.19,
+            "stop_pct": -4.93
+        },
+        {
+            "ticker": "VIE.PA",
+            "last": 32.54,
+            "target_pct": 5.35,
+            "stop_pct": -2.95
+        }
+    ]
+}
