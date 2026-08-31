@@ -2,7 +2,7 @@
     "schema": 2,
     "kind": "scan",
     "market": "us",
-    "computed_at": "2026-08-31T11:00:01+02:00",
+    "computed_at": "2026-08-31T13:00:37+02:00",
     "scan_date": "2026-08-31",
     "close_date": "2026-08-28",
     "regime": {
