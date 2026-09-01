@@ -1,0 +1,33 @@
+{
+    "schema": 2,
+    "kind": "scan",
+    "market": "eu",
+    "computed_at": "2026-09-01T05:00:12+02:00",
+    "scan_date": "2026-09-01",
+    "close_date": "2026-08-31",
+    "regime": {
+        "env": "neutre",
+        "env_label": "Indécis"
+    },
+    "n": 3,
+    "candidates": [
+        {
+            "ticker": "FGR.PA",
+            "last": 109.0,
+            "target_pct": 9.25,
+            "stop_pct": -4.16
+        },
+        {
+            "ticker": "VIE.PA",
+            "last": 32.65,
+            "target_pct": 4.51,
+            "stop_pct": -2.9
+        },
+        {
+            "ticker": "DG.PA",
+            "last": 113.75,
+            "target_pct": 6.27,
+            "stop_pct": -3.46
+        }
+    ]
+}
