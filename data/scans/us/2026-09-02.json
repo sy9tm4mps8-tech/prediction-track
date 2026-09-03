@@ -1,0 +1,33 @@
+{
+    "schema": 2,
+    "kind": "scan",
+    "market": "us",
+    "computed_at": "2026-09-03T13:00:01+02:00",
+    "scan_date": "2026-09-03",
+    "close_date": "2026-09-02",
+    "regime": {
+        "env": "neutre",
+        "env_label": "Indécis"
+    },
+    "n": 3,
+    "candidates": [
+        {
+            "ticker": "ODFL",
+            "last": 187.61,
+            "target_pct": 9.04,
+            "stop_pct": -6.61
+        },
+        {
+            "ticker": "HON",
+            "last": 206.07,
+            "target_pct": 8.96,
+            "stop_pct": -4.38
+        },
+        {
+            "ticker": "MAR",
+            "last": 333.14,
+            "target_pct": 5.75,
+            "stop_pct": -3.97
+        }
+    ]
+}
