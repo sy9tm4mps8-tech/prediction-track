@@ -1,0 +1,45 @@
+{
+    "schema": 2,
+    "kind": "scan",
+    "market": "eu",
+    "computed_at": "2026-09-03T07:56:41+02:00",
+    "scan_date": "2026-09-03",
+    "close_date": "2026-09-02",
+    "regime": {
+        "env": "neutre",
+        "env_label": "Indécis"
+    },
+    "n": 5,
+    "candidates": [
+        {
+            "ticker": "VNA.DE",
+            "last": 18.68,
+            "target_pct": 7.8,
+            "stop_pct": -4.01
+        },
+        {
+            "ticker": "ENEL.MI",
+            "last": 8.99,
+            "target_pct": 6.29,
+            "stop_pct": -3.19
+        },
+        {
+            "ticker": "ANA.MC",
+            "last": 199.6,
+            "target_pct": 5.29,
+            "stop_pct": -3.96
+        },
+        {
+            "ticker": "ACS.MC",
+            "last": 98.45,
+            "target_pct": 7.76,
+            "stop_pct": -4.95
+        },
+        {
+            "ticker": "SCYR.MC",
+            "last": 4.16,
+            "target_pct": 5.71,
+            "stop_pct": -3.74
+        }
+    ]
+}
