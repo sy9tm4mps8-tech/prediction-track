@@ -1,0 +1,39 @@
+{
+    "schema": 2,
+    "kind": "scan",
+    "market": "eu",
+    "computed_at": "2026-09-04T07:00:11+02:00",
+    "scan_date": "2026-09-04",
+    "close_date": "2026-09-03",
+    "regime": {
+        "env": "neutre",
+        "env_label": "Indécis"
+    },
+    "n": 4,
+    "candidates": [
+        {
+            "ticker": "ENEL.MI",
+            "last": 9.0,
+            "target_pct": 5.64,
+            "stop_pct": -3.1
+        },
+        {
+            "ticker": "ELI.BR",
+            "last": 118.0,
+            "target_pct": 8.05,
+            "stop_pct": -5.23
+        },
+        {
+            "ticker": "ENGI.PA",
+            "last": 23.72,
+            "target_pct": 6.53,
+            "stop_pct": -4.29
+        },
+        {
+            "ticker": "IG.MI",
+            "last": 8.38,
+            "target_pct": 3.97,
+            "stop_pct": -3.43
+        }
+    ]
+}
