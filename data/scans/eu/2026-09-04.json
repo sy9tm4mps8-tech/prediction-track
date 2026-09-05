@@ -1,0 +1,27 @@
+{
+    "schema": 2,
+    "kind": "scan",
+    "market": "eu",
+    "computed_at": "2026-09-05T09:00:23+02:00",
+    "scan_date": "2026-09-05",
+    "close_date": "2026-09-04",
+    "regime": {
+        "env": "neutre",
+        "env_label": "Indécis"
+    },
+    "n": 2,
+    "candidates": [
+        {
+            "ticker": "IG.MI",
+            "last": 8.4,
+            "target_pct": 3.35,
+            "stop_pct": -3.33
+        },
+        {
+            "ticker": "EL.PA",
+            "last": 149.9,
+            "target_pct": 7.59,
+            "stop_pct": -5.13
+        }
+    ]
+}
