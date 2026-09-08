@@ -1,0 +1,21 @@
+{
+    "schema": 2,
+    "kind": "scan",
+    "market": "eu",
+    "computed_at": "2026-09-08T07:12:29+02:00",
+    "scan_date": "2026-09-08",
+    "close_date": "2026-09-07",
+    "regime": {
+        "env": "neutre",
+        "env_label": "Indécis"
+    },
+    "n": 1,
+    "candidates": [
+        {
+            "ticker": "EL.PA",
+            "last": 148.8,
+            "target_pct": 7.63,
+            "stop_pct": -4.96
+        }
+    ]
+}
