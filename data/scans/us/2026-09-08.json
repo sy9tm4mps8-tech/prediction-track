@@ -1,0 +1,27 @@
+{
+    "schema": 2,
+    "kind": "scan",
+    "market": "us",
+    "computed_at": "2026-09-09T13:00:01+02:00",
+    "scan_date": "2026-09-09",
+    "close_date": "2026-09-08",
+    "regime": {
+        "env": "neutre",
+        "env_label": "Indécis"
+    },
+    "n": 2,
+    "candidates": [
+        {
+            "ticker": "CDNS",
+            "last": 284.11,
+            "target_pct": 12.59,
+            "stop_pct": -8.52
+        },
+        {
+            "ticker": "TCOM",
+            "last": 40.5,
+            "target_pct": 10.17,
+            "stop_pct": -5.23
+        }
+    ]
+}
