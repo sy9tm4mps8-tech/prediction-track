@@ -1,0 +1,57 @@
+{
+    "schema": 2,
+    "kind": "scan",
+    "market": "us",
+    "computed_at": "2026-09-10T13:00:17+02:00",
+    "scan_date": "2026-09-10",
+    "close_date": "2026-09-09",
+    "regime": {
+        "env": "neutre",
+        "env_label": "Indécis"
+    },
+    "n": 7,
+    "candidates": [
+        {
+            "ticker": "CASY",
+            "last": 629.03,
+            "target_pct": 26.54,
+            "stop_pct": -10.77
+        },
+        {
+            "ticker": "GRAB",
+            "last": 3.04,
+            "target_pct": 15.28,
+            "stop_pct": -8.22
+        },
+        {
+            "ticker": "BKNG",
+            "last": 173.43,
+            "target_pct": 17.16,
+            "stop_pct": -7.68
+        },
+        {
+            "ticker": "CDNS",
+            "last": 284.6,
+            "target_pct": 11.64,
+            "stop_pct": -8.49
+        },
+        {
+            "ticker": "COO",
+            "last": 63.48,
+            "target_pct": 14.49,
+            "stop_pct": -5.6
+        },
+        {
+            "ticker": "TCOM",
+            "last": 39.19,
+            "target_pct": 12.96,
+            "stop_pct": -5.18
+        },
+        {
+            "ticker": "GD",
+            "last": 352.67,
+            "target_pct": 7.34,
+            "stop_pct": -4.11
+        }
+    ]
+}
