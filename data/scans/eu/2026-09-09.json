@@ -1,0 +1,57 @@
+{
+    "schema": 2,
+    "kind": "scan",
+    "market": "eu",
+    "computed_at": "2026-09-10T07:00:12+02:00",
+    "scan_date": "2026-09-10",
+    "close_date": "2026-09-09",
+    "regime": {
+        "env": "neutre",
+        "env_label": "Indécis"
+    },
+    "n": 7,
+    "candidates": [
+        {
+            "ticker": "LDO.MI",
+            "last": 48.76,
+            "target_pct": 11.4,
+            "stop_pct": -6.23
+        },
+        {
+            "ticker": "HO.PA",
+            "last": 225.2,
+            "target_pct": 10.12,
+            "stop_pct": -4.07
+        },
+        {
+            "ticker": "MC.PA",
+            "last": 414.45,
+            "target_pct": 7.4,
+            "stop_pct": -4.95
+        },
+        {
+            "ticker": "SGO.PA",
+            "last": 71.26,
+            "target_pct": 10.6,
+            "stop_pct": -4.83
+        },
+        {
+            "ticker": "VNA.DE",
+            "last": 18.47,
+            "target_pct": 6.24,
+            "stop_pct": -4.09
+        },
+        {
+            "ticker": "PHIA.AS",
+            "last": 21.65,
+            "target_pct": 6.4,
+            "stop_pct": -3.77
+        },
+        {
+            "ticker": "SRG.MI",
+            "last": 5.49,
+            "target_pct": 4.33,
+            "stop_pct": -3.31
+        }
+    ]
+}
