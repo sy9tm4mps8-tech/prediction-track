@@ -1,0 +1,81 @@
+{
+    "schema": 2,
+    "kind": "scan",
+    "market": "us",
+    "computed_at": "2026-09-11T13:00:09+02:00",
+    "scan_date": "2026-09-11",
+    "close_date": "2026-09-10",
+    "regime": {
+        "env": "neutre",
+        "env_label": "Indécis"
+    },
+    "n": 11,
+    "candidates": [
+        {
+            "ticker": "COO",
+            "last": 54.17,
+            "target_pct": 32.09,
+            "stop_pct": -9.59
+        },
+        {
+            "ticker": "CASY",
+            "last": 627.64,
+            "target_pct": 25.14,
+            "stop_pct": -10.97
+        },
+        {
+            "ticker": "GRAB",
+            "last": 3.01,
+            "target_pct": 15.43,
+            "stop_pct": -8.42
+        },
+        {
+            "ticker": "WYNN",
+            "last": 88.42,
+            "target_pct": 8.59,
+            "stop_pct": -5.53
+        },
+        {
+            "ticker": "BBIO",
+            "last": 72.5,
+            "target_pct": 8.39,
+            "stop_pct": -6.25
+        },
+        {
+            "ticker": "TCOM",
+            "last": 38.7,
+            "target_pct": 13.5,
+            "stop_pct": -5.18
+        },
+        {
+            "ticker": "FER",
+            "last": 55.5,
+            "target_pct": 9.02,
+            "stop_pct": -3.7
+        },
+        {
+            "ticker": "GEHC",
+            "last": 64.24,
+            "target_pct": 11.19,
+            "stop_pct": -4.86
+        },
+        {
+            "ticker": "MMM",
+            "last": 162.86,
+            "target_pct": 7.23,
+            "stop_pct": -3.78
+        },
+        {
+            "ticker": "HON",
+            "last": 202.18,
+            "target_pct": 7.12,
+            "stop_pct": -4.23
+        },
+        {
+            "ticker": "LIN",
+            "last": 461.62,
+            "target_pct": 4.01,
+            "stop_pct": -3.22
+        }
+    ]
+}
