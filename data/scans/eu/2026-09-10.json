@@ -1,0 +1,75 @@
+{
+    "schema": 2,
+    "kind": "scan",
+    "market": "eu",
+    "computed_at": "2026-09-11T07:00:12+02:00",
+    "scan_date": "2026-09-11",
+    "close_date": "2026-09-10",
+    "regime": {
+        "env": "neutre",
+        "env_label": "Indécis"
+    },
+    "n": 10,
+    "candidates": [
+        {
+            "ticker": "VNA.DE",
+            "last": 17.99,
+            "target_pct": 8.25,
+            "stop_pct": -4.5
+        },
+        {
+            "ticker": "FER.MC",
+            "last": 47.86,
+            "target_pct": 8.22,
+            "stop_pct": -4.16
+        },
+        {
+            "ticker": "ACS.MC",
+            "last": 96.95,
+            "target_pct": 7.04,
+            "stop_pct": -5.64
+        },
+        {
+            "ticker": "AENA.MC",
+            "last": 24.52,
+            "target_pct": 6.96,
+            "stop_pct": -3.72
+        },
+        {
+            "ticker": "SGO.PA",
+            "last": 71.32,
+            "target_pct": 9.62,
+            "stop_pct": -4.89
+        },
+        {
+            "ticker": "MC.PA",
+            "last": 407.35,
+            "target_pct": 8.59,
+            "stop_pct": -4.9
+        },
+        {
+            "ticker": "PHIA.AS",
+            "last": 21.29,
+            "target_pct": 7.64,
+            "stop_pct": -3.88
+        },
+        {
+            "ticker": "BC.MI",
+            "last": 76.82,
+            "target_pct": 10.93,
+            "stop_pct": -4.78
+        },
+        {
+            "ticker": "MONC.MI",
+            "last": 43.79,
+            "target_pct": 6.84,
+            "stop_pct": -5.18
+        },
+        {
+            "ticker": "UCB.BR",
+            "last": 202.0,
+            "target_pct": 6.81,
+            "stop_pct": -5.4
+        }
+    ]
+}
