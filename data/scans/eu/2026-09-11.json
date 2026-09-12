@@ -1,0 +1,63 @@
+{
+    "schema": 2,
+    "kind": "scan",
+    "market": "eu",
+    "computed_at": "2026-09-12T09:00:17+02:00",
+    "scan_date": "2026-09-12",
+    "close_date": "2026-09-11",
+    "regime": {
+        "env": "neutre",
+        "env_label": "Indécis"
+    },
+    "n": 8,
+    "candidates": [
+        {
+            "ticker": "BC.MI",
+            "last": 76.74,
+            "target_pct": 10.23,
+            "stop_pct": -4.95
+        },
+        {
+            "ticker": "RMS.PA",
+            "last": 1396.0,
+            "target_pct": 8.84,
+            "stop_pct": -5.52
+        },
+        {
+            "ticker": "VNA.DE",
+            "last": 18.15,
+            "target_pct": 6.64,
+            "stop_pct": -4.4
+        },
+        {
+            "ticker": "FER.MC",
+            "last": 48.25,
+            "target_pct": 6.6,
+            "stop_pct": -4.2
+        },
+        {
+            "ticker": "HO.PA",
+            "last": 224.4,
+            "target_pct": 8.53,
+            "stop_pct": -3.93
+        },
+        {
+            "ticker": "SGO.PA",
+            "last": 70.98,
+            "target_pct": 9.24,
+            "stop_pct": -4.98
+        },
+        {
+            "ticker": "ELIS.PA",
+            "last": 22.6,
+            "target_pct": 5.68,
+            "stop_pct": -4.03
+        },
+        {
+            "ticker": "BN.PA",
+            "last": 61.42,
+            "target_pct": 5.03,
+            "stop_pct": -3.11
+        }
+    ]
+}
