@@ -2,62 +2,50 @@
     "schema": 2,
     "kind": "scan",
     "market": "eu",
-    "computed_at": "2026-09-12T09:00:17+02:00",
-    "scan_date": "2026-09-12",
+    "computed_at": "2026-09-14T07:00:35+02:00",
+    "scan_date": "2026-09-14",
     "close_date": "2026-09-11",
     "regime": {
         "env": "neutre",
         "env_label": "Indécis"
     },
-    "n": 8,
+    "n": 6,
     "candidates": [
         {
             "ticker": "BC.MI",
-            "last": 76.74,
-            "target_pct": 10.23,
+            "last": 76.72,
+            "target_pct": 10.26,
             "stop_pct": -4.95
         },
         {
-            "ticker": "RMS.PA",
-            "last": 1396.0,
-            "target_pct": 8.84,
-            "stop_pct": -5.52
+            "ticker": "SGO.PA",
+            "last": 71.52,
+            "target_pct": 8.45,
+            "stop_pct": -4.95
         },
         {
             "ticker": "VNA.DE",
-            "last": 18.15,
-            "target_pct": 6.64,
-            "stop_pct": -4.4
+            "last": 18.11,
+            "target_pct": 6.86,
+            "stop_pct": -4.41
         },
         {
             "ticker": "FER.MC",
-            "last": 48.25,
-            "target_pct": 6.6,
+            "last": 48.26,
+            "target_pct": 6.58,
             "stop_pct": -4.2
         },
         {
-            "ticker": "HO.PA",
-            "last": 224.4,
-            "target_pct": 8.53,
-            "stop_pct": -3.93
-        },
-        {
-            "ticker": "SGO.PA",
-            "last": 70.98,
-            "target_pct": 9.24,
-            "stop_pct": -4.98
-        },
-        {
-            "ticker": "ELIS.PA",
-            "last": 22.6,
-            "target_pct": 5.68,
-            "stop_pct": -4.03
-        },
-        {
             "ticker": "BN.PA",
-            "last": 61.42,
-            "target_pct": 5.03,
-            "stop_pct": -3.11
+            "last": 61.38,
+            "target_pct": 5.09,
+            "stop_pct": -3.12
+        },
+        {
+            "ticker": "PHIA.AS",
+            "last": 21.14,
+            "target_pct": 7.81,
+            "stop_pct": -4.0
         }
     ]
 }
