@@ -1,0 +1,51 @@
+{
+    "schema": 2,
+    "kind": "scan",
+    "market": "eu",
+    "computed_at": "2026-09-15T07:00:10+02:00",
+    "scan_date": "2026-09-15",
+    "close_date": "2026-09-14",
+    "regime": {
+        "env": "neutre",
+        "env_label": "Indécis"
+    },
+    "n": 6,
+    "candidates": [
+        {
+            "ticker": "ACS.MC",
+            "last": 91.55,
+            "target_pct": 11.8,
+            "stop_pct": -6.51
+        },
+        {
+            "ticker": "BC.MI",
+            "last": 76.08,
+            "target_pct": 10.44,
+            "stop_pct": -4.99
+        },
+        {
+            "ticker": "FER.MC",
+            "last": 46.98,
+            "target_pct": 8.63,
+            "stop_pct": -4.48
+        },
+        {
+            "ticker": "VNA.DE",
+            "last": 17.92,
+            "target_pct": 7.33,
+            "stop_pct": -4.5
+        },
+        {
+            "ticker": "ELI.BR",
+            "last": 114.5,
+            "target_pct": 7.65,
+            "stop_pct": -5.4
+        },
+        {
+            "ticker": "EDPR.LS",
+            "last": 12.21,
+            "target_pct": 9.68,
+            "stop_pct": -5.85
+        }
+    ]
+}
