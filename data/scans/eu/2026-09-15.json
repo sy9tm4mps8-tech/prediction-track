@@ -1,0 +1,33 @@
+{
+    "schema": 2,
+    "kind": "scan",
+    "market": "eu",
+    "computed_at": "2026-09-16T07:00:13+02:00",
+    "scan_date": "2026-09-16",
+    "close_date": "2026-09-15",
+    "regime": {
+        "env": "neutre",
+        "env_label": "Indécis"
+    },
+    "n": 3,
+    "candidates": [
+        {
+            "ticker": "ACS.MC",
+            "last": 91.45,
+            "target_pct": 11.04,
+            "stop_pct": -6.55
+        },
+        {
+            "ticker": "EDPR.LS",
+            "last": 12.3,
+            "target_pct": 8.38,
+            "stop_pct": -5.97
+        },
+        {
+            "ticker": "ITX.MC",
+            "last": 52.74,
+            "target_pct": 7.54,
+            "stop_pct": -4.16
+        }
+    ]
+}
