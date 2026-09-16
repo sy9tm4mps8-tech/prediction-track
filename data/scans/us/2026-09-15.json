@@ -1,0 +1,57 @@
+{
+    "schema": 2,
+    "kind": "scan",
+    "market": "us",
+    "computed_at": "2026-09-16T13:00:14+02:00",
+    "scan_date": "2026-09-16",
+    "close_date": "2026-09-15",
+    "regime": {
+        "env": "neutre",
+        "env_label": "Indécis"
+    },
+    "n": 7,
+    "candidates": [
+        {
+            "ticker": "CASY",
+            "last": 587.14,
+            "target_pct": 27.41,
+            "stop_pct": -11.62
+        },
+        {
+            "ticker": "GRAB",
+            "last": 2.91,
+            "target_pct": 16.1,
+            "stop_pct": -8.96
+        },
+        {
+            "ticker": "IONS",
+            "last": 47.25,
+            "target_pct": 23.86,
+            "stop_pct": -10.03
+        },
+        {
+            "ticker": "CDNS",
+            "last": 273.96,
+            "target_pct": 12.91,
+            "stop_pct": -8.5
+        },
+        {
+            "ticker": "BBIO",
+            "last": 68.39,
+            "target_pct": 12.88,
+            "stop_pct": -7.3
+        },
+        {
+            "ticker": "GE",
+            "last": 307.05,
+            "target_pct": 10.0,
+            "stop_pct": -5.52
+        },
+        {
+            "ticker": "BKR",
+            "last": 56.72,
+            "target_pct": 9.56,
+            "stop_pct": -7.11
+        }
+    ]
+}
