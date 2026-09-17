@@ -1,0 +1,69 @@
+{
+    "schema": 2,
+    "kind": "scan",
+    "market": "us",
+    "computed_at": "2026-09-17T13:00:08+02:00",
+    "scan_date": "2026-09-17",
+    "close_date": "2026-09-16",
+    "regime": {
+        "env": "neutre",
+        "env_label": "Indécis"
+    },
+    "n": 9,
+    "candidates": [
+        {
+            "ticker": "CASY",
+            "last": 589.0,
+            "target_pct": 24.75,
+            "stop_pct": -11.45
+        },
+        {
+            "ticker": "IONS",
+            "last": 44.84,
+            "target_pct": 28.86,
+            "stop_pct": -11.14
+        },
+        {
+            "ticker": "GRAB",
+            "last": 2.87,
+            "target_pct": 16.71,
+            "stop_pct": -9.11
+        },
+        {
+            "ticker": "WYNN",
+            "last": 84.23,
+            "target_pct": 10.29,
+            "stop_pct": -5.93
+        },
+        {
+            "ticker": "ODFL",
+            "last": 174.36,
+            "target_pct": 9.65,
+            "stop_pct": -7.03
+        },
+        {
+            "ticker": "BAC",
+            "last": 57.9,
+            "target_pct": 6.46,
+            "stop_pct": -4.85
+        },
+        {
+            "ticker": "PCAR",
+            "last": 118.22,
+            "target_pct": 5.69,
+            "stop_pct": -4.57
+        },
+        {
+            "ticker": "BBIO",
+            "last": 68.3,
+            "target_pct": 11.95,
+            "stop_pct": -7.51
+        },
+        {
+            "ticker": "BKR",
+            "last": 56.32,
+            "target_pct": 9.62,
+            "stop_pct": -7.24
+        }
+    ]
+}
