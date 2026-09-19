@@ -1,0 +1,75 @@
+{
+    "schema": 2,
+    "kind": "scan",
+    "market": "us",
+    "computed_at": "2026-09-19T09:00:22+02:00",
+    "scan_date": "2026-09-19",
+    "close_date": "2026-09-18",
+    "regime": {
+        "env": "neutre",
+        "env_label": "Indécis"
+    },
+    "n": 10,
+    "candidates": [
+        {
+            "ticker": "IONS",
+            "last": 44.44,
+            "target_pct": 26.83,
+            "stop_pct": -11.84
+        },
+        {
+            "ticker": "GRAB",
+            "last": 2.8,
+            "target_pct": 17.25,
+            "stop_pct": -9.48
+        },
+        {
+            "ticker": "ODFL",
+            "last": 173.0,
+            "target_pct": 8.75,
+            "stop_pct": -7.07
+        },
+        {
+            "ticker": "WYNN",
+            "last": 81.68,
+            "target_pct": 11.59,
+            "stop_pct": -5.79
+        },
+        {
+            "ticker": "BAC",
+            "last": 57.73,
+            "target_pct": 6.04,
+            "stop_pct": -4.69
+        },
+        {
+            "ticker": "CMCSA",
+            "last": 22.74,
+            "target_pct": 13.12,
+            "stop_pct": -6.53
+        },
+        {
+            "ticker": "EXE",
+            "last": 87.49,
+            "target_pct": 9.32,
+            "stop_pct": -5.63
+        },
+        {
+            "ticker": "PCAR",
+            "last": 116.06,
+            "target_pct": 6.66,
+            "stop_pct": -4.68
+        },
+        {
+            "ticker": "PEP",
+            "last": 129.75,
+            "target_pct": 6.14,
+            "stop_pct": -3.23
+        },
+        {
+            "ticker": "CVS",
+            "last": 88.84,
+            "target_pct": 6.11,
+            "stop_pct": -5.36
+        }
+    ]
+}
