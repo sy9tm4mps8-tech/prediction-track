@@ -1,0 +1,33 @@
+{
+    "schema": 2,
+    "kind": "scan",
+    "market": "eu",
+    "computed_at": "2026-09-19T09:00:17+02:00",
+    "scan_date": "2026-09-19",
+    "close_date": "2026-09-18",
+    "regime": {
+        "env": "neutre",
+        "env_label": "Indécis"
+    },
+    "n": 3,
+    "candidates": [
+        {
+            "ticker": "RMS.PA",
+            "last": 1323.0,
+            "target_pct": 11.3,
+            "stop_pct": -5.81
+        },
+        {
+            "ticker": "HEI.DE",
+            "last": 144.0,
+            "target_pct": 10.65,
+            "stop_pct": -6.51
+        },
+        {
+            "ticker": "EL.PA",
+            "last": 138.5,
+            "target_pct": 9.63,
+            "stop_pct": -5.63
+        }
+    ]
+}
