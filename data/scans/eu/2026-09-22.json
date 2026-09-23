@@ -1,0 +1,27 @@
+{
+    "schema": 2,
+    "kind": "scan",
+    "market": "eu",
+    "computed_at": "2026-09-23T07:00:12+02:00",
+    "scan_date": "2026-09-23",
+    "close_date": "2026-09-22",
+    "regime": {
+        "env": "neutre",
+        "env_label": "Indécis"
+    },
+    "n": 2,
+    "candidates": [
+        {
+            "ticker": "VNA.DE",
+            "last": 17.38,
+            "target_pct": 6.88,
+            "stop_pct": -4.56
+        },
+        {
+            "ticker": "ORA.PA",
+            "last": 14.47,
+            "target_pct": 6.52,
+            "stop_pct": -4.5
+        }
+    ]
+}
