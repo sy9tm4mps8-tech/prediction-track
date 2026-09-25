@@ -1,0 +1,39 @@
+{
+    "schema": 2,
+    "kind": "scan",
+    "market": "eu",
+    "computed_at": "2026-09-25T07:00:03+02:00",
+    "scan_date": "2026-09-25",
+    "close_date": "2026-09-24",
+    "regime": {
+        "env": "neutre",
+        "env_label": "Indécis"
+    },
+    "n": 4,
+    "candidates": [
+        {
+            "ticker": "MBG.DE",
+            "last": 41.41,
+            "target_pct": 10.84,
+            "stop_pct": -6.0
+        },
+        {
+            "ticker": "ORA.PA",
+            "last": 14.01,
+            "target_pct": 8.95,
+            "stop_pct": -4.83
+        },
+        {
+            "ticker": "FDJU.PA",
+            "last": 21.13,
+            "target_pct": 4.69,
+            "stop_pct": -3.35
+        },
+        {
+            "ticker": "SAMPO.HE",
+            "last": 8.8,
+            "target_pct": 7.56,
+            "stop_pct": -3.36
+        }
+    ]
+}
