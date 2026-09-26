@@ -1,0 +1,75 @@
+{
+    "schema": 2,
+    "kind": "scan",
+    "market": "us",
+    "computed_at": "2026-09-26T09:00:25+02:00",
+    "scan_date": "2026-09-26",
+    "close_date": "2026-09-25",
+    "regime": {
+        "env": "neutre",
+        "env_label": "Indécis"
+    },
+    "n": 10,
+    "candidates": [
+        {
+            "ticker": "GEN",
+            "last": 21.62,
+            "target_pct": 35.14,
+            "stop_pct": -11.91
+        },
+        {
+            "ticker": "CHTR",
+            "last": 112.91,
+            "target_pct": 21.75,
+            "stop_pct": -11.69
+        },
+        {
+            "ticker": "INTU",
+            "last": 275.79,
+            "target_pct": 15.82,
+            "stop_pct": -9.06
+        },
+        {
+            "ticker": "JBHT",
+            "last": 225.46,
+            "target_pct": 12.72,
+            "stop_pct": -7.55
+        },
+        {
+            "ticker": "BBIO",
+            "last": 65.57,
+            "target_pct": 8.94,
+            "stop_pct": -8.8
+        },
+        {
+            "ticker": "PAYX",
+            "last": 101.37,
+            "target_pct": 15.25,
+            "stop_pct": -6.42
+        },
+        {
+            "ticker": "NEE",
+            "last": 76.08,
+            "target_pct": 6.56,
+            "stop_pct": -3.37
+        },
+        {
+            "ticker": "EXC",
+            "last": 40.34,
+            "target_pct": 5.7,
+            "stop_pct": -3.41
+        },
+        {
+            "ticker": "XEL",
+            "last": 69.8,
+            "target_pct": 5.45,
+            "stop_pct": -3.79
+        },
+        {
+            "ticker": "MCD",
+            "last": 236.5,
+            "target_pct": 6.61,
+            "stop_pct": -3.96
+        }
+    ]
+}
