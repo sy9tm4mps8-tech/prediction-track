@@ -1,0 +1,69 @@
+{
+    "schema": 2,
+    "kind": "scan",
+    "market": "us",
+    "computed_at": "2026-09-29T13:00:02+02:00",
+    "scan_date": "2026-09-29",
+    "close_date": "2026-09-28",
+    "regime": {
+        "env": "neutre",
+        "env_label": "Indécis"
+    },
+    "n": 9,
+    "candidates": [
+        {
+            "ticker": "GEN",
+            "last": 20.85,
+            "target_pct": 37.69,
+            "stop_pct": -12.23
+        },
+        {
+            "ticker": "CHTR",
+            "last": 111.4,
+            "target_pct": 21.5,
+            "stop_pct": -11.47
+        },
+        {
+            "ticker": "DASH",
+            "last": 178.39,
+            "target_pct": 13.2,
+            "stop_pct": -8.23
+        },
+        {
+            "ticker": "BA",
+            "last": 184.39,
+            "target_pct": 10.44,
+            "stop_pct": -7.07
+        },
+        {
+            "ticker": "INTU",
+            "last": 269.4,
+            "target_pct": 16.92,
+            "stop_pct": -8.95
+        },
+        {
+            "ticker": "JBHT",
+            "last": 226.07,
+            "target_pct": 11.64,
+            "stop_pct": -7.5
+        },
+        {
+            "ticker": "PAYX",
+            "last": 99.3,
+            "target_pct": 16.26,
+            "stop_pct": -6.15
+        },
+        {
+            "ticker": "CMCSA",
+            "last": 21.79,
+            "target_pct": 11.65,
+            "stop_pct": -7.37
+        },
+        {
+            "ticker": "ROP",
+            "last": 354.0,
+            "target_pct": 9.12,
+            "stop_pct": -5.25
+        }
+    ]
+}
