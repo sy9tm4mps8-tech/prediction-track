@@ -1,0 +1,69 @@
+{
+    "schema": 2,
+    "kind": "scan",
+    "market": "us",
+    "computed_at": "2026-09-30T13:03:35+02:00",
+    "scan_date": "2026-09-30",
+    "close_date": "2026-09-29",
+    "regime": {
+        "env": "neutre",
+        "env_label": "Indécis"
+    },
+    "n": 9,
+    "candidates": [
+        {
+            "ticker": "GEN",
+            "last": 20.85,
+            "target_pct": 35.26,
+            "stop_pct": -12.91
+        },
+        {
+            "ticker": "CHTR",
+            "last": 110.67,
+            "target_pct": 20.42,
+            "stop_pct": -10.43
+        },
+        {
+            "ticker": "DKNG",
+            "last": 19.59,
+            "target_pct": 17.13,
+            "stop_pct": -12.4
+        },
+        {
+            "ticker": "INTU",
+            "last": 268.03,
+            "target_pct": 15.82,
+            "stop_pct": -8.98
+        },
+        {
+            "ticker": "CPRT",
+            "last": 27.14,
+            "target_pct": 11.71,
+            "stop_pct": -7.13
+        },
+        {
+            "ticker": "TTD",
+            "last": 12.05,
+            "target_pct": 14.55,
+            "stop_pct": -9.25
+        },
+        {
+            "ticker": "ROP",
+            "last": 349.45,
+            "target_pct": 9.46,
+            "stop_pct": -5.23
+        },
+        {
+            "ticker": "EXE",
+            "last": 84.18,
+            "target_pct": 9.39,
+            "stop_pct": -5.95
+        },
+        {
+            "ticker": "KTOS",
+            "last": 43.05,
+            "target_pct": 9.3,
+            "stop_pct": -10.07
+        }
+    ]
+}
