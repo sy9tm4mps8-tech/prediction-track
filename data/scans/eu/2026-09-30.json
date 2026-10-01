@@ -1,0 +1,45 @@
+{
+    "schema": 2,
+    "kind": "scan",
+    "market": "eu",
+    "computed_at": "2026-10-01T07:00:08+02:00",
+    "scan_date": "2026-10-01",
+    "close_date": "2026-09-30",
+    "regime": {
+        "env": "neutre",
+        "env_label": "Indécis"
+    },
+    "n": 5,
+    "candidates": [
+        {
+            "ticker": "ORA.PA",
+            "last": 13.7,
+            "target_pct": 9.23,
+            "stop_pct": -4.89
+        },
+        {
+            "ticker": "CLNX.MC",
+            "last": 22.56,
+            "target_pct": 10.21,
+            "stop_pct": -5.77
+        },
+        {
+            "ticker": "FGR.PA",
+            "last": 100.45,
+            "target_pct": 6.25,
+            "stop_pct": -4.13
+        },
+        {
+            "ticker": "EN.PA",
+            "last": 41.76,
+            "target_pct": 4.75,
+            "stop_pct": -3.54
+        },
+        {
+            "ticker": "DG.PA",
+            "last": 106.45,
+            "target_pct": 4.7,
+            "stop_pct": -3.69
+        }
+    ]
+}
