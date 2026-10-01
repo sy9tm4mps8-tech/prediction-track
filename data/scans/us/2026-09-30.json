@@ -1,0 +1,63 @@
+{
+    "schema": 2,
+    "kind": "scan",
+    "market": "us",
+    "computed_at": "2026-10-01T13:03:38+02:00",
+    "scan_date": "2026-10-01",
+    "close_date": "2026-09-30",
+    "regime": {
+        "env": "neutre",
+        "env_label": "Indécis"
+    },
+    "n": 8,
+    "candidates": [
+        {
+            "ticker": "DKNG",
+            "last": 19.0,
+            "target_pct": 19.6,
+            "stop_pct": -12.93
+        },
+        {
+            "ticker": "BAC",
+            "last": 54.43,
+            "target_pct": 8.26,
+            "stop_pct": -4.87
+        },
+        {
+            "ticker": "MS",
+            "last": 188.08,
+            "target_pct": 8.96,
+            "stop_pct": -5.47
+        },
+        {
+            "ticker": "BNY",
+            "last": 144.63,
+            "target_pct": 7.46,
+            "stop_pct": -4.57
+        },
+        {
+            "ticker": "KTOS",
+            "last": 42.69,
+            "target_pct": 9.44,
+            "stop_pct": -9.93
+        },
+        {
+            "ticker": "KHC",
+            "last": 22.72,
+            "target_pct": 7.06,
+            "stop_pct": -5.31
+        },
+        {
+            "ticker": "EXE",
+            "last": 84.09,
+            "target_pct": 8.56,
+            "stop_pct": -5.73
+        },
+        {
+            "ticker": "ESLT",
+            "last": 682.01,
+            "target_pct": 6.14,
+            "stop_pct": -4.57
+        }
+    ]
+}
