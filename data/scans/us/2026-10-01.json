@@ -1,0 +1,57 @@
+{
+    "schema": 2,
+    "kind": "scan",
+    "market": "us",
+    "computed_at": "2026-10-02T13:03:38+02:00",
+    "scan_date": "2026-10-02",
+    "close_date": "2026-10-01",
+    "regime": {
+        "env": "neutre",
+        "env_label": "Indécis"
+    },
+    "n": 7,
+    "candidates": [
+        {
+            "ticker": "BAC",
+            "last": 53.73,
+            "target_pct": 8.88,
+            "stop_pct": -4.95
+        },
+        {
+            "ticker": "WYNN",
+            "last": 77.3,
+            "target_pct": 9.25,
+            "stop_pct": -6.77
+        },
+        {
+            "ticker": "BNY",
+            "last": 143.92,
+            "target_pct": 7.36,
+            "stop_pct": -4.62
+        },
+        {
+            "ticker": "ABT",
+            "last": 96.69,
+            "target_pct": 6.29,
+            "stop_pct": -4.15
+        },
+        {
+            "ticker": "KMB",
+            "last": 94.34,
+            "target_pct": 5.01,
+            "stop_pct": -4.18
+        },
+        {
+            "ticker": "FER",
+            "last": 52.94,
+            "target_pct": 5.04,
+            "stop_pct": -4.13
+        },
+        {
+            "ticker": "KHC",
+            "last": 22.46,
+            "target_pct": 7.55,
+            "stop_pct": -5.43
+        }
+    ]
+}
