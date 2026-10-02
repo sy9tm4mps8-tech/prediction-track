@@ -1,0 +1,147 @@
+{
+    "schema": 2,
+    "kind": "scan",
+    "market": "eu",
+    "computed_at": "2026-10-02T07:00:08+02:00",
+    "scan_date": "2026-10-02",
+    "close_date": "2026-10-01",
+    "regime": {
+        "env": "fav",
+        "env_label": "Favorable"
+    },
+    "n": 22,
+    "candidates": [
+        {
+            "ticker": "HUH1V.HE",
+            "last": 27.08,
+            "target_pct": 9.78,
+            "stop_pct": -4.18
+        },
+        {
+            "ticker": "STLAP.PA",
+            "last": 3.84,
+            "target_pct": 12.41,
+            "stop_pct": -8.05
+        },
+        {
+            "ticker": "MBG.DE",
+            "last": 39.8,
+            "target_pct": 11.41,
+            "stop_pct": -5.83
+        },
+        {
+            "ticker": "GLE.PA",
+            "last": 66.0,
+            "target_pct": 9.88,
+            "stop_pct": -7.08
+        },
+        {
+            "ticker": "TIT.MI",
+            "last": 6.62,
+            "target_pct": 12.4,
+            "stop_pct": -6.61
+        },
+        {
+            "ticker": "ACA.PA",
+            "last": 16.84,
+            "target_pct": 8.29,
+            "stop_pct": -4.4
+        },
+        {
+            "ticker": "TEF.MC",
+            "last": 3.28,
+            "target_pct": 8.13,
+            "stop_pct": -5.03
+        },
+        {
+            "ticker": "CLNX.MC",
+            "last": 22.12,
+            "target_pct": 11.52,
+            "stop_pct": -5.92
+        },
+        {
+            "ticker": "AIR.PA",
+            "last": 186.56,
+            "target_pct": 4.44,
+            "stop_pct": -4.68
+        },
+        {
+            "ticker": "BNP.PA",
+            "last": 91.44,
+            "target_pct": 7.68,
+            "stop_pct": -5.3
+        },
+        {
+            "ticker": "MT.AS",
+            "last": 56.96,
+            "target_pct": 11.27,
+            "stop_pct": -7.05
+        },
+        {
+            "ticker": "EN.PA",
+            "last": 40.7,
+            "target_pct": 7.03,
+            "stop_pct": -3.86
+        },
+        {
+            "ticker": "FGR.PA",
+            "last": 99.36,
+            "target_pct": 6.9,
+            "stop_pct": -4.32
+        },
+        {
+            "ticker": "SCYR.MC",
+            "last": 3.87,
+            "target_pct": 6.89,
+            "stop_pct": -3.91
+        },
+        {
+            "ticker": "MC.PA",
+            "last": 380.7,
+            "target_pct": 6.81,
+            "stop_pct": -4.73
+        },
+        {
+            "ticker": "SGO.PA",
+            "last": 66.24,
+            "target_pct": 6.78,
+            "stop_pct": -4.96
+        },
+        {
+            "ticker": "ELIS.PA",
+            "last": 21.14,
+            "target_pct": 5.96,
+            "stop_pct": -5.4
+        },
+        {
+            "ticker": "GBLB.BR",
+            "last": 69.85,
+            "target_pct": 5.71,
+            "stop_pct": -2.75
+        },
+        {
+            "ticker": "DG.PA",
+            "last": 105.35,
+            "target_pct": 5.45,
+            "stop_pct": -3.91
+        },
+        {
+            "ticker": "FER.MC",
+            "last": 46.62,
+            "target_pct": 3.56,
+            "stop_pct": -4.16
+        },
+        {
+            "ticker": "BN.PA",
+            "last": 57.62,
+            "target_pct": 5.93,
+            "stop_pct": -3.38
+        },
+        {
+            "ticker": "AKE.PA",
+            "last": 54.15,
+            "target_pct": 5.37,
+            "stop_pct": -4.47
+        }
+    ]
+}
