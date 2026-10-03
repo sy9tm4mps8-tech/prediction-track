@@ -1,0 +1,63 @@
+{
+    "schema": 2,
+    "kind": "scan",
+    "market": "us",
+    "computed_at": "2026-10-03T09:00:17+02:00",
+    "scan_date": "2026-10-03",
+    "close_date": "2026-10-02",
+    "regime": {
+        "env": "neutre",
+        "env_label": "Indécis"
+    },
+    "n": 8,
+    "candidates": [
+        {
+            "ticker": "DKNG",
+            "last": 18.59,
+            "target_pct": 19.43,
+            "stop_pct": -12.8
+        },
+        {
+            "ticker": "APP",
+            "last": 268.22,
+            "target_pct": 16.49,
+            "stop_pct": -11.64
+        },
+        {
+            "ticker": "WYNN",
+            "last": 75.88,
+            "target_pct": 10.27,
+            "stop_pct": -7.12
+        },
+        {
+            "ticker": "ABT",
+            "last": 97.5,
+            "target_pct": 4.83,
+            "stop_pct": -4.12
+        },
+        {
+            "ticker": "NKE",
+            "last": 33.87,
+            "target_pct": 7.0,
+            "stop_pct": -6.68
+        },
+        {
+            "ticker": "KMB",
+            "last": 94.36,
+            "target_pct": 4.34,
+            "stop_pct": -4.0
+        },
+        {
+            "ticker": "KHC",
+            "last": 22.19,
+            "target_pct": 8.22,
+            "stop_pct": -5.3
+        },
+        {
+            "ticker": "LOW",
+            "last": 180.8,
+            "target_pct": 6.45,
+            "stop_pct": -4.86
+        }
+    ]
+}
