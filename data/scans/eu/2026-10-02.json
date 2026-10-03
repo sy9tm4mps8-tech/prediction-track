@@ -1,0 +1,105 @@
+{
+    "schema": 2,
+    "kind": "scan",
+    "market": "eu",
+    "computed_at": "2026-10-03T09:00:17+02:00",
+    "scan_date": "2026-10-03",
+    "close_date": "2026-10-02",
+    "regime": {
+        "env": "neutre",
+        "env_label": "Indécis"
+    },
+    "n": 15,
+    "candidates": [
+        {
+            "ticker": "HUH1V.HE",
+            "last": 26.96,
+            "target_pct": 9.5,
+            "stop_pct": -4.22
+        },
+        {
+            "ticker": "RNO.PA",
+            "last": 24.77,
+            "target_pct": 11.41,
+            "stop_pct": -7.13
+        },
+        {
+            "ticker": "BNP.PA",
+            "last": 91.54,
+            "target_pct": 7.04,
+            "stop_pct": -5.4
+        },
+        {
+            "ticker": "KER.PA",
+            "last": 210.7,
+            "target_pct": 9.49,
+            "stop_pct": -6.49
+        },
+        {
+            "ticker": "TIT.MI",
+            "last": 6.52,
+            "target_pct": 13.04,
+            "stop_pct": -6.99
+        },
+        {
+            "ticker": "RMS.PA",
+            "last": 1302.0,
+            "target_pct": 5.37,
+            "stop_pct": -5.51
+        },
+        {
+            "ticker": "UNI.MI",
+            "last": 25.64,
+            "target_pct": 7.22,
+            "stop_pct": -5.01
+        },
+        {
+            "ticker": "MC.PA",
+            "last": 379.15,
+            "target_pct": 6.57,
+            "stop_pct": -4.66
+        },
+        {
+            "ticker": "DTG.DE",
+            "last": 40.8,
+            "target_pct": 5.86,
+            "stop_pct": -4.6
+        },
+        {
+            "ticker": "VNA.DE",
+            "last": 16.72,
+            "target_pct": 5.58,
+            "stop_pct": -5.1
+        },
+        {
+            "ticker": "CABK.MC",
+            "last": 11.95,
+            "target_pct": 8.56,
+            "stop_pct": -5.21
+        },
+        {
+            "ticker": "ACA.PA",
+            "last": 16.76,
+            "target_pct": 8.19,
+            "stop_pct": -4.5
+        },
+        {
+            "ticker": "EN.PA",
+            "last": 40.64,
+            "target_pct": 6.73,
+            "stop_pct": -3.99
+        },
+        {
+            "ticker": "GBLB.BR",
+            "last": 69.5,
+            "target_pct": 5.9,
+            "stop_pct": -2.83
+        },
+        {
+            "ticker": "AKE.PA",
+            "last": 53.8,
+            "target_pct": 5.53,
+            "stop_pct": -4.49
+        }
+    ]
+}
