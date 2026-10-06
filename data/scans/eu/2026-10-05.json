@@ -1,0 +1,81 @@
+{
+    "schema": 2,
+    "kind": "scan",
+    "market": "eu",
+    "computed_at": "2026-10-06T07:37:22+02:00",
+    "scan_date": "2026-10-06",
+    "close_date": "2026-10-05",
+    "regime": {
+        "env": "neutre",
+        "env_label": "Indécis"
+    },
+    "n": 11,
+    "candidates": [
+        {
+            "ticker": "WLN.PA",
+            "last": 10.4,
+            "target_pct": 18.85,
+            "stop_pct": -10.3
+        },
+        {
+            "ticker": "PAH3.DE",
+            "last": 24.55,
+            "target_pct": 10.85,
+            "stop_pct": -7.43
+        },
+        {
+            "ticker": "MB.MI",
+            "last": 26.1,
+            "target_pct": 8.62,
+            "stop_pct": -5.04
+        },
+        {
+            "ticker": "TIT.MI",
+            "last": 6.31,
+            "target_pct": 15.78,
+            "stop_pct": -7.59
+        },
+        {
+            "ticker": "HUH1V.HE",
+            "last": 26.56,
+            "target_pct": 10.39,
+            "stop_pct": -4.33
+        },
+        {
+            "ticker": "ACA.PA",
+            "last": 16.89,
+            "target_pct": 6.84,
+            "stop_pct": -4.43
+        },
+        {
+            "ticker": "SGO.PA",
+            "last": 65.72,
+            "target_pct": 6.29,
+            "stop_pct": -4.82
+        },
+        {
+            "ticker": "BAYN.DE",
+            "last": 43.93,
+            "target_pct": 10.28,
+            "stop_pct": -6.29
+        },
+        {
+            "ticker": "KER.PA",
+            "last": 208.45,
+            "target_pct": 9.87,
+            "stop_pct": -6.57
+        },
+        {
+            "ticker": "GBLB.BR",
+            "last": 68.85,
+            "target_pct": 6.51,
+            "stop_pct": -2.77
+        },
+        {
+            "ticker": "RMS.PA",
+            "last": 1281.0,
+            "target_pct": 6.33,
+            "stop_pct": -5.59
+        }
+    ]
+}
