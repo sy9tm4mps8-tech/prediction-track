@@ -1,0 +1,21 @@
+{
+    "schema": 2,
+    "kind": "scan",
+    "market": "eu",
+    "computed_at": "2026-10-07T07:00:11+02:00",
+    "scan_date": "2026-10-07",
+    "close_date": "2026-10-06",
+    "regime": {
+        "env": "neutre",
+        "env_label": "Indécis"
+    },
+    "n": 1,
+    "candidates": [
+        {
+            "ticker": "TIT.MI",
+            "last": 6.03,
+            "target_pct": 19.77,
+            "stop_pct": -8.57
+        }
+    ]
+}
