@@ -1,0 +1,45 @@
+{
+    "schema": 2,
+    "kind": "scan",
+    "market": "eu",
+    "computed_at": "2026-10-08T07:00:10+02:00",
+    "scan_date": "2026-10-08",
+    "close_date": "2026-10-07",
+    "regime": {
+        "env": "fav",
+        "env_label": "Favorable"
+    },
+    "n": 5,
+    "candidates": [
+        {
+            "ticker": "TIT.MI",
+            "last": 5.89,
+            "target_pct": 21.33,
+            "stop_pct": -9.06
+        },
+        {
+            "ticker": "MB.MI",
+            "last": 25.3,
+            "target_pct": 11.08,
+            "stop_pct": -5.56
+        },
+        {
+            "ticker": "WIE.VI",
+            "last": 15.57,
+            "target_pct": 10.98,
+            "stop_pct": -8.28
+        },
+        {
+            "ticker": "SGO.PA",
+            "last": 64.9,
+            "target_pct": 6.6,
+            "stop_pct": -5.55
+        },
+        {
+            "ticker": "FER.MC",
+            "last": 45.19,
+            "target_pct": 5.27,
+            "stop_pct": -4.48
+        }
+    ]
+}
