@@ -1,0 +1,123 @@
+{
+    "schema": 2,
+    "kind": "scan",
+    "market": "eu",
+    "computed_at": "2026-10-09T07:00:11+02:00",
+    "scan_date": "2026-10-09",
+    "close_date": "2026-10-08",
+    "regime": {
+        "env": "fav",
+        "env_label": "Favorable"
+    },
+    "n": 18,
+    "candidates": [
+        {
+            "ticker": "ARGX.BR",
+            "last": 712.0,
+            "target_pct": 17.99,
+            "stop_pct": -8.55
+        },
+        {
+            "ticker": "TIT.MI",
+            "last": 5.64,
+            "target_pct": 24.91,
+            "stop_pct": -9.83
+        },
+        {
+            "ticker": "MB.MI",
+            "last": 24.69,
+            "target_pct": 13.14,
+            "stop_pct": -5.9
+        },
+        {
+            "ticker": "MT.AS",
+            "last": 54.04,
+            "target_pct": 12.64,
+            "stop_pct": -7.42
+        },
+        {
+            "ticker": "GLE.PA",
+            "last": 62.28,
+            "target_pct": 11.79,
+            "stop_pct": -8.14
+        },
+        {
+            "ticker": "BMW.DE",
+            "last": 52.22,
+            "target_pct": 10.4,
+            "stop_pct": -6.75
+        },
+        {
+            "ticker": "ACA.PA",
+            "last": 16.18,
+            "target_pct": 9.73,
+            "stop_pct": -5.11
+        },
+        {
+            "ticker": "TYRES.HE",
+            "last": 14.28,
+            "target_pct": 9.29,
+            "stop_pct": -5.6
+        },
+        {
+            "ticker": "ISP.MI",
+            "last": 6.08,
+            "target_pct": 8.76,
+            "stop_pct": -4.92
+        },
+        {
+            "ticker": "BAMI.MI",
+            "last": 14.62,
+            "target_pct": 8.33,
+            "stop_pct": -6.03
+        },
+        {
+            "ticker": "DBK.DE",
+            "last": 29.68,
+            "target_pct": 8.29,
+            "stop_pct": -5.95
+        },
+        {
+            "ticker": "WIE.VI",
+            "last": 15.39,
+            "target_pct": 11.41,
+            "stop_pct": -8.26
+        },
+        {
+            "ticker": "BKT.MC",
+            "last": 15.14,
+            "target_pct": 7.61,
+            "stop_pct": -4.77
+        },
+        {
+            "ticker": "VNA.DE",
+            "last": 16.21,
+            "target_pct": 6.73,
+            "stop_pct": -5.35
+        },
+        {
+            "ticker": "LUMO.HE",
+            "last": 6.8,
+            "target_pct": 6.6,
+            "stop_pct": -4.34
+        },
+        {
+            "ticker": "LDO.MI",
+            "last": 45.89,
+            "target_pct": 6.77,
+            "stop_pct": -5.37
+        },
+        {
+            "ticker": "FER.MC",
+            "last": 44.43,
+            "target_pct": 6.66,
+            "stop_pct": -4.73
+        },
+        {
+            "ticker": "HO.PA",
+            "last": 215.7,
+            "target_pct": 6.49,
+            "stop_pct": -5.06
+        }
+    ]
+}
