@@ -1,0 +1,27 @@
+{
+    "schema": 2,
+    "kind": "scan",
+    "market": "us",
+    "computed_at": "2026-10-09T13:07:47+02:00",
+    "scan_date": "2026-10-09",
+    "close_date": "2026-10-08",
+    "regime": {
+        "env": "neutre",
+        "env_label": "Indécis"
+    },
+    "n": 2,
+    "candidates": [
+        {
+            "ticker": "ARGX",
+            "last": 818.63,
+            "target_pct": 16.61,
+            "stop_pct": -7.78
+        },
+        {
+            "ticker": "MDGL",
+            "last": 476.91,
+            "target_pct": 7.57,
+            "stop_pct": -7.04
+        }
+    ]
+}
