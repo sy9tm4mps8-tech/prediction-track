@@ -2,8 +2,8 @@
     "schema": 2,
     "kind": "scan",
     "market": "eu",
-    "computed_at": "2026-10-10T09:00:36+02:00",
-    "scan_date": "2026-10-10",
+    "computed_at": "2026-10-12T07:01:10+02:00",
+    "scan_date": "2026-10-12",
     "close_date": "2026-10-09",
     "regime": {
         "env": "fav",
@@ -13,57 +13,57 @@
     "candidates": [
         {
             "ticker": "TIT.MI",
-            "last": 5.57,
-            "target_pct": 24.69,
-            "stop_pct": -10.11
+            "last": 5.55,
+            "target_pct": 25.04,
+            "stop_pct": -10.14
         },
         {
             "ticker": "WIE.VI",
-            "last": 15.51,
-            "target_pct": 9.67,
-            "stop_pct": -8.34
+            "last": 15.4,
+            "target_pct": 10.42,
+            "stop_pct": -8.4
+        },
+        {
+            "ticker": "MB.MI",
+            "last": 25.24,
+            "target_pct": 9.97,
+            "stop_pct": -5.8
         },
         {
             "ticker": "DTE.DE",
-            "last": 24.73,
-            "target_pct": 9.34,
-            "stop_pct": -5.35
+            "last": 24.7,
+            "target_pct": 9.47,
+            "stop_pct": -5.36
         },
         {
             "ticker": "ACA.PA",
-            "last": 16.3,
-            "target_pct": 8.18,
-            "stop_pct": -5.0
-        },
-        {
-            "ticker": "MBG.DE",
-            "last": 39.47,
-            "target_pct": 6.71,
-            "stop_pct": -5.65
+            "last": 16.32,
+            "target_pct": 8.06,
+            "stop_pct": -4.99
         },
         {
             "ticker": "VNA.DE",
-            "last": 16.32,
-            "target_pct": 5.49,
+            "last": 16.31,
+            "target_pct": 5.52,
             "stop_pct": -5.28
         },
         {
             "ticker": "SGO.PA",
-            "last": 65.02,
-            "target_pct": 5.39,
-            "stop_pct": -5.46
-        },
-        {
-            "ticker": "TKA.VI",
-            "last": 8.58,
-            "target_pct": 8.39,
-            "stop_pct": -5.79
+            "last": 64.94,
+            "target_pct": 5.51,
+            "stop_pct": -5.47
         },
         {
             "ticker": "BKT.MC",
-            "last": 15.09,
-            "target_pct": 7.35,
-            "stop_pct": -4.56
+            "last": 15.0,
+            "target_pct": 7.99,
+            "stop_pct": -4.65
+        },
+        {
+            "ticker": "UQA.VI",
+            "last": 16.64,
+            "target_pct": 7.89,
+            "stop_pct": -5.41
         },
         {
             "ticker": "LUMO.HE",
@@ -73,8 +73,8 @@
         },
         {
             "ticker": "FGR.PA",
-            "last": 98.76,
-            "target_pct": 5.0,
+            "last": 98.72,
+            "target_pct": 5.04,
             "stop_pct": -4.85
         }
     ]
