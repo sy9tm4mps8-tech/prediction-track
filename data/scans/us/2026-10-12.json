@@ -1,0 +1,33 @@
+{
+    "schema": 2,
+    "kind": "scan",
+    "market": "us",
+    "computed_at": "2026-10-13T13:06:55+02:00",
+    "scan_date": "2026-10-13",
+    "close_date": "2026-10-12",
+    "regime": {
+        "env": "neutre",
+        "env_label": "Indécis"
+    },
+    "n": 3,
+    "candidates": [
+        {
+            "ticker": "ARGX",
+            "last": 812.3,
+            "target_pct": 15.44,
+            "stop_pct": -7.9
+        },
+        {
+            "ticker": "CHTR",
+            "last": 102.48,
+            "target_pct": 13.09,
+            "stop_pct": -9.4
+        },
+        {
+            "ticker": "MDGL",
+            "last": 467.16,
+            "target_pct": 8.37,
+            "stop_pct": -7.19
+        }
+    ]
+}
