@@ -1,0 +1,27 @@
+{
+    "schema": 2,
+    "kind": "scan",
+    "market": "eu",
+    "computed_at": "2026-10-13T07:00:10+02:00",
+    "scan_date": "2026-10-13",
+    "close_date": "2026-10-12",
+    "regime": {
+        "env": "neutre",
+        "env_label": "Indécis"
+    },
+    "n": 2,
+    "candidates": [
+        {
+            "ticker": "TIT.MI",
+            "last": 5.51,
+            "target_pct": 24.21,
+            "stop_pct": -10.0
+        },
+        {
+            "ticker": "TYRES.HE",
+            "last": 14.08,
+            "target_pct": 9.68,
+            "stop_pct": -5.75
+        }
+    ]
+}
