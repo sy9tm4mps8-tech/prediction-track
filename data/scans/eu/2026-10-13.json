@@ -1,0 +1,14 @@
+{
+    "schema": 2,
+    "kind": "scan",
+    "market": "eu",
+    "computed_at": "2026-10-14T07:00:10+02:00",
+    "scan_date": "2026-10-14",
+    "close_date": "2026-10-13",
+    "regime": {
+        "env": "fav",
+        "env_label": "Favorable"
+    },
+    "n": 0,
+    "candidates": []
+}
