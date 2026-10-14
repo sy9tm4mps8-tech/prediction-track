@@ -1,0 +1,51 @@
+{
+    "schema": 2,
+    "kind": "scan",
+    "market": "us",
+    "computed_at": "2026-10-14T13:07:06+02:00",
+    "scan_date": "2026-10-14",
+    "close_date": "2026-10-13",
+    "regime": {
+        "env": "neutre",
+        "env_label": "Indécis"
+    },
+    "n": 6,
+    "candidates": [
+        {
+            "ticker": "INCY",
+            "last": 108.62,
+            "target_pct": 10.01,
+            "stop_pct": -5.84
+        },
+        {
+            "ticker": "KTOS",
+            "last": 40.35,
+            "target_pct": 9.88,
+            "stop_pct": -9.29
+        },
+        {
+            "ticker": "AVAV",
+            "last": 127.13,
+            "target_pct": 15.32,
+            "stop_pct": -9.61
+        },
+        {
+            "ticker": "MDGL",
+            "last": 452.12,
+            "target_pct": 11.19,
+            "stop_pct": -7.31
+        },
+        {
+            "ticker": "BMY",
+            "last": 56.67,
+            "target_pct": 7.2,
+            "stop_pct": -5.8
+        },
+        {
+            "ticker": "RIVN",
+            "last": 13.37,
+            "target_pct": 10.06,
+            "stop_pct": -8.39
+        }
+    ]
+}
