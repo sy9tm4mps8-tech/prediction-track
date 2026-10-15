@@ -1,0 +1,75 @@
+{
+    "schema": 2,
+    "kind": "scan",
+    "market": "us",
+    "computed_at": "2026-10-15T13:06:54+02:00",
+    "scan_date": "2026-10-15",
+    "close_date": "2026-10-14",
+    "regime": {
+        "env": "neutre",
+        "env_label": "Indécis"
+    },
+    "n": 10,
+    "candidates": [
+        {
+            "ticker": "ASTS",
+            "last": 42.14,
+            "target_pct": 37.06,
+            "stop_pct": -21.42
+        },
+        {
+            "ticker": "PSKY",
+            "last": 7.06,
+            "target_pct": 36.34,
+            "stop_pct": -21.27
+        },
+        {
+            "ticker": "IREN",
+            "last": 30.56,
+            "target_pct": 34.35,
+            "stop_pct": -16.22
+        },
+        {
+            "ticker": "CRWV",
+            "last": 65.78,
+            "target_pct": 28.42,
+            "stop_pct": -15.43
+        },
+        {
+            "ticker": "AVAV",
+            "last": 120.6,
+            "target_pct": 20.08,
+            "stop_pct": -10.22
+        },
+        {
+            "ticker": "BAC",
+            "last": 51.39,
+            "target_pct": 7.08,
+            "stop_pct": -4.82
+        },
+        {
+            "ticker": "MS",
+            "last": 181.51,
+            "target_pct": 6.41,
+            "stop_pct": -4.98
+        },
+        {
+            "ticker": "BNY",
+            "last": 137.64,
+            "target_pct": 6.37,
+            "stop_pct": -4.1
+        },
+        {
+            "ticker": "KTOS",
+            "last": 39.33,
+            "target_pct": 11.68,
+            "stop_pct": -9.48
+        },
+        {
+            "ticker": "RIVN",
+            "last": 12.95,
+            "target_pct": 12.75,
+            "stop_pct": -8.4
+        }
+    ]
+}
