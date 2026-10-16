@@ -1,0 +1,57 @@
+{
+    "schema": 2,
+    "kind": "scan",
+    "market": "us",
+    "computed_at": "2026-10-16T13:06:49+02:00",
+    "scan_date": "2026-10-16",
+    "close_date": "2026-10-15",
+    "regime": {
+        "env": "neutre",
+        "env_label": "Indécis"
+    },
+    "n": 7,
+    "candidates": [
+        {
+            "ticker": "IREN",
+            "last": 30.39,
+            "target_pct": 32.95,
+            "stop_pct": -16.73
+        },
+        {
+            "ticker": "PSKY",
+            "last": 7.26,
+            "target_pct": 30.27,
+            "stop_pct": -21.35
+        },
+        {
+            "ticker": "RKLB",
+            "last": 55.25,
+            "target_pct": 25.0,
+            "stop_pct": -15.57
+        },
+        {
+            "ticker": "AVAV",
+            "last": 123.22,
+            "target_pct": 15.9,
+            "stop_pct": -9.71
+        },
+        {
+            "ticker": "RIVN",
+            "last": 13.02,
+            "target_pct": 11.23,
+            "stop_pct": -8.52
+        },
+        {
+            "ticker": "BAC",
+            "last": 51.7,
+            "target_pct": 5.82,
+            "stop_pct": -4.82
+        },
+        {
+            "ticker": "MS",
+            "last": 182.1,
+            "target_pct": 5.47,
+            "stop_pct": -5.11
+        }
+    ]
+}
