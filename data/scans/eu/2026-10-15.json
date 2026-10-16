@@ -1,0 +1,45 @@
+{
+    "schema": 2,
+    "kind": "scan",
+    "market": "eu",
+    "computed_at": "2026-10-16T07:02:45+02:00",
+    "scan_date": "2026-10-16",
+    "close_date": "2026-10-15",
+    "regime": {
+        "env": "neutre",
+        "env_label": "Indécis"
+    },
+    "n": 5,
+    "candidates": [
+        {
+            "ticker": "NDA-FI.HE",
+            "last": 15.65,
+            "target_pct": 10.15,
+            "stop_pct": -4.8
+        },
+        {
+            "ticker": "AZM.MI",
+            "last": 34.59,
+            "target_pct": 9.37,
+            "stop_pct": -5.27
+        },
+        {
+            "ticker": "FER.MC",
+            "last": 43.22,
+            "target_pct": 7.91,
+            "stop_pct": -5.33
+        },
+        {
+            "ticker": "MELE.BR",
+            "last": 57.0,
+            "target_pct": 14.21,
+            "stop_pct": -7.52
+        },
+        {
+            "ticker": "BAMI.MI",
+            "last": 14.06,
+            "target_pct": 9.91,
+            "stop_pct": -5.47
+        }
+    ]
+}
