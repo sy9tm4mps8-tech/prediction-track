@@ -1,0 +1,27 @@
+{
+    "schema": 2,
+    "kind": "scan",
+    "market": "eu",
+    "computed_at": "2026-10-17T09:00:35+02:00",
+    "scan_date": "2026-10-17",
+    "close_date": "2026-10-16",
+    "regime": {
+        "env": "neutre",
+        "env_label": "Indécis"
+    },
+    "n": 2,
+    "candidates": [
+        {
+            "ticker": "NDA-FI.HE",
+            "last": 15.74,
+            "target_pct": 8.97,
+            "stop_pct": -4.82
+        },
+        {
+            "ticker": "BAMI.MI",
+            "last": 13.79,
+            "target_pct": 11.33,
+            "stop_pct": -5.56
+        }
+    ]
+}
