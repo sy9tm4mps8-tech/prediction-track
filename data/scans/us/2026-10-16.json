@@ -1,0 +1,105 @@
+{
+    "schema": 2,
+    "kind": "scan",
+    "market": "us",
+    "computed_at": "2026-10-17T09:00:40+02:00",
+    "scan_date": "2026-10-17",
+    "close_date": "2026-10-16",
+    "regime": {
+        "env": "neutre",
+        "env_label": "Indécis"
+    },
+    "n": 15,
+    "candidates": [
+        {
+            "ticker": "IREN",
+            "last": 26.99,
+            "target_pct": 46.05,
+            "stop_pct": -19.58
+        },
+        {
+            "ticker": "ASTS",
+            "last": 40.66,
+            "target_pct": 37.61,
+            "stop_pct": -24.07
+        },
+        {
+            "ticker": "CRWV",
+            "last": 61.39,
+            "target_pct": 35.14,
+            "stop_pct": -19.15
+        },
+        {
+            "ticker": "SKYD",
+            "last": 6.91,
+            "target_pct": 34.49,
+            "stop_pct": -22.62
+        },
+        {
+            "ticker": "STX",
+            "last": 639.01,
+            "target_pct": 30.63,
+            "stop_pct": -16.85
+        },
+        {
+            "ticker": "RKLB",
+            "last": 50.84,
+            "target_pct": 34.49,
+            "stop_pct": -17.66
+        },
+        {
+            "ticker": "SNDK",
+            "last": 1299.3,
+            "target_pct": 27.02,
+            "stop_pct": -13.03
+        },
+        {
+            "ticker": "WDC",
+            "last": 332.0,
+            "target_pct": 26.53,
+            "stop_pct": -15.02
+        },
+        {
+            "ticker": "AVAV",
+            "last": 121.79,
+            "target_pct": 15.69,
+            "stop_pct": -9.75
+        },
+        {
+            "ticker": "RIVN",
+            "last": 12.42,
+            "target_pct": 15.57,
+            "stop_pct": -9.06
+        },
+        {
+            "ticker": "AMAT",
+            "last": 409.29,
+            "target_pct": 19.81,
+            "stop_pct": -10.08
+        },
+        {
+            "ticker": "BIDU",
+            "last": 80.14,
+            "target_pct": 7.4,
+            "stop_pct": -5.41
+        },
+        {
+            "ticker": "SCHW",
+            "last": 91.96,
+            "target_pct": 6.31,
+            "stop_pct": -4.52
+        },
+        {
+            "ticker": "BAC",
+            "last": 51.23,
+            "target_pct": 6.15,
+            "stop_pct": -4.89
+        },
+        {
+            "ticker": "MS",
+            "last": 180.57,
+            "target_pct": 5.76,
+            "stop_pct": -5.25
+        }
+    ]
+}
