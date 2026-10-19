@@ -2,15 +2,21 @@
     "schema": 2,
     "kind": "scan",
     "market": "eu",
-    "computed_at": "2026-10-17T09:00:35+02:00",
-    "scan_date": "2026-10-17",
+    "computed_at": "2026-10-19T07:03:45+02:00",
+    "scan_date": "2026-10-19",
     "close_date": "2026-10-16",
     "regime": {
         "env": "neutre",
         "env_label": "Indécis"
     },
-    "n": 2,
+    "n": 3,
     "candidates": [
+        {
+            "ticker": "BESI.AS",
+            "last": 155.55,
+            "target_pct": 18.34,
+            "stop_pct": -12.98
+        },
         {
             "ticker": "NDA-FI.HE",
             "last": 15.74,
@@ -19,8 +25,8 @@
         },
         {
             "ticker": "BAMI.MI",
-            "last": 13.79,
-            "target_pct": 11.33,
+            "last": 13.8,
+            "target_pct": 11.25,
             "stop_pct": -5.56
         }
     ]
