@@ -1,0 +1,63 @@
+{
+    "schema": 2,
+    "kind": "scan",
+    "market": "us",
+    "computed_at": "2026-10-20T13:06:55+02:00",
+    "scan_date": "2026-10-20",
+    "close_date": "2026-10-19",
+    "regime": {
+        "env": "neutre",
+        "env_label": "Indécis"
+    },
+    "n": 8,
+    "candidates": [
+        {
+            "ticker": "IREN",
+            "last": 27.73,
+            "target_pct": 38.64,
+            "stop_pct": -19.01
+        },
+        {
+            "ticker": "SKYD",
+            "last": 6.8,
+            "target_pct": 34.38,
+            "stop_pct": -22.84
+        },
+        {
+            "ticker": "CRWV",
+            "last": 61.12,
+            "target_pct": 33.75,
+            "stop_pct": -19.54
+        },
+        {
+            "ticker": "RKLB",
+            "last": 51.36,
+            "target_pct": 31.32,
+            "stop_pct": -16.73
+        },
+        {
+            "ticker": "RIVN",
+            "last": 12.34,
+            "target_pct": 15.1,
+            "stop_pct": -8.8
+        },
+        {
+            "ticker": "UAL",
+            "last": 95.6,
+            "target_pct": 12.82,
+            "stop_pct": -8.02
+        },
+        {
+            "ticker": "CAT",
+            "last": 725.79,
+            "target_pct": 10.3,
+            "stop_pct": -8.38
+        },
+        {
+            "ticker": "SCHW",
+            "last": 89.58,
+            "target_pct": 8.17,
+            "stop_pct": -4.81
+        }
+    ]
+}
