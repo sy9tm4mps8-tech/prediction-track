@@ -1,0 +1,75 @@
+{
+    "schema": 2,
+    "kind": "scan",
+    "market": "eu",
+    "computed_at": "2026-10-20T07:02:59+02:00",
+    "scan_date": "2026-10-20",
+    "close_date": "2026-10-19",
+    "regime": {
+        "env": "fav",
+        "env_label": "Favorable"
+    },
+    "n": 10,
+    "candidates": [
+        {
+            "ticker": "TYRES.HE",
+            "last": 13.57,
+            "target_pct": 10.53,
+            "stop_pct": -6.06
+        },
+        {
+            "ticker": "NDA-FI.HE",
+            "last": 15.48,
+            "target_pct": 9.98,
+            "stop_pct": -4.75
+        },
+        {
+            "ticker": "AZM.MI",
+            "last": 34.21,
+            "target_pct": 9.19,
+            "stop_pct": -5.17
+        },
+        {
+            "ticker": "KBC.BR",
+            "last": 116.35,
+            "target_pct": 7.94,
+            "stop_pct": -4.72
+        },
+        {
+            "ticker": "ACA.PA",
+            "last": 15.21,
+            "target_pct": 7.89,
+            "stop_pct": -5.05
+        },
+        {
+            "ticker": "DBK.DE",
+            "last": 28.41,
+            "target_pct": 7.87,
+            "stop_pct": -5.65
+        },
+        {
+            "ticker": "BAMI.MI",
+            "last": 13.21,
+            "target_pct": 15.06,
+            "stop_pct": -6.26
+        },
+        {
+            "ticker": "BNP.PA",
+            "last": 86.62,
+            "target_pct": 7.39,
+            "stop_pct": -5.86
+        },
+        {
+            "ticker": "PRY.MI",
+            "last": 106.5,
+            "target_pct": 14.39,
+            "stop_pct": -9.81
+        },
+        {
+            "ticker": "UMI.BR",
+            "last": 19.54,
+            "target_pct": 6.98,
+            "stop_pct": -6.09
+        }
+    ]
+}
