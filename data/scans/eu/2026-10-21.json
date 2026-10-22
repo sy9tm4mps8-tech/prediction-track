@@ -1,0 +1,63 @@
+{
+    "schema": 2,
+    "kind": "scan",
+    "market": "eu",
+    "computed_at": "2026-10-22T07:03:03+02:00",
+    "scan_date": "2026-10-22",
+    "close_date": "2026-10-21",
+    "regime": {
+        "env": "neutre",
+        "env_label": "Indécis"
+    },
+    "n": 8,
+    "candidates": [
+        {
+            "ticker": "CA.PA",
+            "last": 14.09,
+            "target_pct": 13.3,
+            "stop_pct": -6.66
+        },
+        {
+            "ticker": "UMI.BR",
+            "last": 18.84,
+            "target_pct": 9.4,
+            "stop_pct": -6.82
+        },
+        {
+            "ticker": "ML.PA",
+            "last": 30.86,
+            "target_pct": 8.2,
+            "stop_pct": -4.62
+        },
+        {
+            "ticker": "TYRES.HE",
+            "last": 13.65,
+            "target_pct": 8.05,
+            "stop_pct": -5.83
+        },
+        {
+            "ticker": "KBC.BR",
+            "last": 115.95,
+            "target_pct": 6.87,
+            "stop_pct": -4.56
+        },
+        {
+            "ticker": "ACA.PA",
+            "last": 15.24,
+            "target_pct": 6.23,
+            "stop_pct": -4.48
+        },
+        {
+            "ticker": "BNP.PA",
+            "last": 86.75,
+            "target_pct": 6.04,
+            "stop_pct": -5.31
+        },
+        {
+            "ticker": "SOLB.BR",
+            "last": 23.52,
+            "target_pct": 4.91,
+            "stop_pct": -5.39
+        }
+    ]
+}
