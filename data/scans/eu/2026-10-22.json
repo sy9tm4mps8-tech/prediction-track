@@ -1,0 +1,99 @@
+{
+    "schema": 2,
+    "kind": "scan",
+    "market": "eu",
+    "computed_at": "2026-10-23T07:02:52+02:00",
+    "scan_date": "2026-10-23",
+    "close_date": "2026-10-22",
+    "regime": {
+        "env": "neutre",
+        "env_label": "Indécis"
+    },
+    "n": 14,
+    "candidates": [
+        {
+            "ticker": "NOKIA.HE",
+            "last": 7.43,
+            "target_pct": 18.97,
+            "stop_pct": -11.88
+        },
+        {
+            "ticker": "PRY.MI",
+            "last": 100.2,
+            "target_pct": 18.32,
+            "stop_pct": -10.85
+        },
+        {
+            "ticker": "CA.PA",
+            "last": 13.7,
+            "target_pct": 15.62,
+            "stop_pct": -6.96
+        },
+        {
+            "ticker": "SU.PA",
+            "last": 233.05,
+            "target_pct": 15.11,
+            "stop_pct": -9.43
+        },
+        {
+            "ticker": "UMI.BR",
+            "last": 17.77,
+            "target_pct": 15.05,
+            "stop_pct": -7.52
+        },
+        {
+            "ticker": "BG.VI",
+            "last": 154.4,
+            "target_pct": 10.6,
+            "stop_pct": -6.26
+        },
+        {
+            "ticker": "KBC.BR",
+            "last": 111.6,
+            "target_pct": 10.19,
+            "stop_pct": -4.73
+        },
+        {
+            "ticker": "GLE.PA",
+            "last": 59.71,
+            "target_pct": 9.15,
+            "stop_pct": -6.61
+        },
+        {
+            "ticker": "BKT.MC",
+            "last": 14.25,
+            "target_pct": 8.76,
+            "stop_pct": -5.47
+        },
+        {
+            "ticker": "CABK.MC",
+            "last": 11.2,
+            "target_pct": 7.82,
+            "stop_pct": -5.34
+        },
+        {
+            "ticker": "BNP.PA",
+            "last": 82.49,
+            "target_pct": 10.56,
+            "stop_pct": -5.93
+        },
+        {
+            "ticker": "ACA.PA",
+            "last": 14.83,
+            "target_pct": 8.33,
+            "stop_pct": -4.7
+        },
+        {
+            "ticker": "SOLB.BR",
+            "last": 23.24,
+            "target_pct": 5.83,
+            "stop_pct": -5.35
+        },
+        {
+            "ticker": "FDJU.PA",
+            "last": 19.98,
+            "target_pct": 4.92,
+            "stop_pct": -4.54
+        }
+    ]
+}
