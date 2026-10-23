@@ -1,0 +1,51 @@
+{
+    "schema": 2,
+    "kind": "scan",
+    "market": "us",
+    "computed_at": "2026-10-23T13:06:43+02:00",
+    "scan_date": "2026-10-23",
+    "close_date": "2026-10-22",
+    "regime": {
+        "env": "neutre",
+        "env_label": "Indécis"
+    },
+    "n": 6,
+    "candidates": [
+        {
+            "ticker": "CRWV",
+            "last": 55.6,
+            "target_pct": 39.45,
+            "stop_pct": -23.61
+        },
+        {
+            "ticker": "IREN",
+            "last": 25.51,
+            "target_pct": 38.59,
+            "stop_pct": -20.99
+        },
+        {
+            "ticker": "KLAC",
+            "last": 147.83,
+            "target_pct": 25.2,
+            "stop_pct": -11.53
+        },
+        {
+            "ticker": "ASTS",
+            "last": 38.77,
+            "target_pct": 33.49,
+            "stop_pct": -22.75
+        },
+        {
+            "ticker": "LRCX",
+            "last": 230.15,
+            "target_pct": 32.17,
+            "stop_pct": -13.54
+        },
+        {
+            "ticker": "AMAT",
+            "last": 375.58,
+            "target_pct": 26.8,
+            "stop_pct": -10.98
+        }
+    ]
+}
