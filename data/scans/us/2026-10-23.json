@@ -1,0 +1,81 @@
+{
+    "schema": 2,
+    "kind": "scan",
+    "market": "us",
+    "computed_at": "2026-10-24T09:00:33+02:00",
+    "scan_date": "2026-10-24",
+    "close_date": "2026-10-23",
+    "regime": {
+        "env": "neutre",
+        "env_label": "Indécis"
+    },
+    "n": 11,
+    "candidates": [
+        {
+            "ticker": "IREN",
+            "last": 24.91,
+            "target_pct": 38.1,
+            "stop_pct": -21.13
+        },
+        {
+            "ticker": "CRWV",
+            "last": 54.24,
+            "target_pct": 39.89,
+            "stop_pct": -23.77
+        },
+        {
+            "ticker": "KLAC",
+            "last": 145.61,
+            "target_pct": 25.66,
+            "stop_pct": -11.48
+        },
+        {
+            "ticker": "LRCX",
+            "last": 230.1,
+            "target_pct": 30.35,
+            "stop_pct": -13.5
+        },
+        {
+            "ticker": "AMAT",
+            "last": 377.24,
+            "target_pct": 24.81,
+            "stop_pct": -10.9
+        },
+        {
+            "ticker": "GEV",
+            "last": 815.0,
+            "target_pct": 16.67,
+            "stop_pct": -12.43
+        },
+        {
+            "ticker": "CAT",
+            "last": 687.0,
+            "target_pct": 13.69,
+            "stop_pct": -8.67
+        },
+        {
+            "ticker": "RIVN",
+            "last": 11.83,
+            "target_pct": 14.93,
+            "stop_pct": -7.83
+        },
+        {
+            "ticker": "MDGL",
+            "last": 434.24,
+            "target_pct": 9.44,
+            "stop_pct": -8.45
+        },
+        {
+            "ticker": "BIDU",
+            "last": 77.2,
+            "target_pct": 7.9,
+            "stop_pct": -5.47
+        },
+        {
+            "ticker": "GE",
+            "last": 285.64,
+            "target_pct": 7.42,
+            "stop_pct": -6.16
+        }
+    ]
+}
