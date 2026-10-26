@@ -1,0 +1,75 @@
+{
+    "schema": 2,
+    "kind": "scan",
+    "market": "us",
+    "computed_at": "2026-10-26T21:13:58+01:00",
+    "scan_date": "2026-10-26",
+    "close_date": "2026-10-26",
+    "regime": {
+        "env": "neutre",
+        "env_label": "Indécis"
+    },
+    "n": 10,
+    "candidates": [
+        {
+            "ticker": "CRWV",
+            "last": 55.19,
+            "target_pct": 34.76,
+            "stop_pct": -23.55
+        },
+        {
+            "ticker": "IREN",
+            "last": 25.43,
+            "target_pct": 32.05,
+            "stop_pct": -21.43
+        },
+        {
+            "ticker": "NBIS",
+            "last": 153.27,
+            "target_pct": 32.12,
+            "stop_pct": -20.83
+        },
+        {
+            "ticker": "KLAC",
+            "last": 149.21,
+            "target_pct": 21.29,
+            "stop_pct": -10.75
+        },
+        {
+            "ticker": "LRCX",
+            "last": 237.5,
+            "target_pct": 24.67,
+            "stop_pct": -12.78
+        },
+        {
+            "ticker": "CAT",
+            "last": 691.79,
+            "target_pct": 11.98,
+            "stop_pct": -8.36
+        },
+        {
+            "ticker": "RIVN",
+            "last": 11.43,
+            "target_pct": 17.48,
+            "stop_pct": -8.11
+        },
+        {
+            "ticker": "GOOGL",
+            "last": 316.8,
+            "target_pct": 7.89,
+            "stop_pct": -5.32
+        },
+        {
+            "ticker": "PCAR",
+            "last": 104.37,
+            "target_pct": 4.46,
+            "stop_pct": -5.02
+        },
+        {
+            "ticker": "GOOG",
+            "last": 314.19,
+            "target_pct": 7.67,
+            "stop_pct": -5.24
+        }
+    ]
+}
