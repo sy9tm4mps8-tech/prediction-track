@@ -1,0 +1,51 @@
+{
+    "schema": 2,
+    "kind": "scan",
+    "market": "eu",
+    "computed_at": "2026-10-27T07:03:42+01:00",
+    "scan_date": "2026-10-27",
+    "close_date": "2026-10-26",
+    "regime": {
+        "env": "neutre",
+        "env_label": "Indécis"
+    },
+    "n": 6,
+    "candidates": [
+        {
+            "ticker": "KER.PA",
+            "last": 179.08,
+            "target_pct": 17.67,
+            "stop_pct": -8.37
+        },
+        {
+            "ticker": "SAF.PA",
+            "last": 273.6,
+            "target_pct": 15.16,
+            "stop_pct": -7.0
+        },
+        {
+            "ticker": "UMI.BR",
+            "last": 17.59,
+            "target_pct": 14.08,
+            "stop_pct": -7.48
+        },
+        {
+            "ticker": "BKT.MC",
+            "last": 14.14,
+            "target_pct": 7.81,
+            "stop_pct": -5.69
+        },
+        {
+            "ticker": "MT.AS",
+            "last": 53.1,
+            "target_pct": 6.24,
+            "stop_pct": -6.89
+        },
+        {
+            "ticker": "TIT.MI",
+            "last": 5.55,
+            "target_pct": 6.05,
+            "stop_pct": -7.11
+        }
+    ]
+}
