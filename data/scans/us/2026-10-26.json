@@ -2,8 +2,8 @@
     "schema": 2,
     "kind": "scan",
     "market": "us",
-    "computed_at": "2026-10-26T21:13:58+01:00",
-    "scan_date": "2026-10-26",
+    "computed_at": "2026-10-27T13:07:48+01:00",
+    "scan_date": "2026-10-27",
     "close_date": "2026-10-26",
     "regime": {
         "env": "neutre",
@@ -43,9 +43,9 @@
         },
         {
             "ticker": "CAT",
-            "last": 691.79,
-            "target_pct": 11.98,
-            "stop_pct": -8.36
+            "last": 692.13,
+            "target_pct": 11.67,
+            "stop_pct": -8.34
         },
         {
             "ticker": "RIVN",
