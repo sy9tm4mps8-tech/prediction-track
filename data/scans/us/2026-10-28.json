@@ -1,0 +1,33 @@
+{
+    "schema": 2,
+    "kind": "scan",
+    "market": "us",
+    "computed_at": "2026-10-28T21:13:50+01:00",
+    "scan_date": "2026-10-28",
+    "close_date": "2026-10-28",
+    "regime": {
+        "env": "neutre",
+        "env_label": "Indécis"
+    },
+    "n": 3,
+    "candidates": [
+        {
+            "ticker": "FFIV",
+            "last": 365.53,
+            "target_pct": 24.45,
+            "stop_pct": -11.9
+        },
+        {
+            "ticker": "BA",
+            "last": 167.12,
+            "target_pct": 12.14,
+            "stop_pct": -6.54
+        },
+        {
+            "ticker": "PCAR",
+            "last": 102.42,
+            "target_pct": 5.69,
+            "stop_pct": -5.46
+        }
+    ]
+}
