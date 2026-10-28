@@ -1,0 +1,39 @@
+{
+    "schema": 2,
+    "kind": "scan",
+    "market": "eu",
+    "computed_at": "2026-10-28T07:02:53+01:00",
+    "scan_date": "2026-10-28",
+    "close_date": "2026-10-27",
+    "regime": {
+        "env": "neutre",
+        "env_label": "Indécis"
+    },
+    "n": 4,
+    "candidates": [
+        {
+            "ticker": "FR.PA",
+            "last": 11.32,
+            "target_pct": 19.14,
+            "stop_pct": -11.49
+        },
+        {
+            "ticker": "KER.PA",
+            "last": 179.5,
+            "target_pct": 16.18,
+            "stop_pct": -8.2
+        },
+        {
+            "ticker": "SAF.PA",
+            "last": 274.6,
+            "target_pct": 13.66,
+            "stop_pct": -6.79
+        },
+        {
+            "ticker": "EDEN.PA",
+            "last": 24.3,
+            "target_pct": 14.0,
+            "stop_pct": -8.5
+        }
+    ]
+}
