@@ -1,0 +1,27 @@
+{
+    "schema": 2,
+    "kind": "scan",
+    "market": "eu",
+    "computed_at": "2026-10-29T07:03:14+01:00",
+    "scan_date": "2026-10-29",
+    "close_date": "2026-10-28",
+    "regime": {
+        "env": "neutre",
+        "env_label": "Indécis"
+    },
+    "n": 2,
+    "candidates": [
+        {
+            "ticker": "CA.PA",
+            "last": 13.08,
+            "target_pct": 16.94,
+            "stop_pct": -7.44
+        },
+        {
+            "ticker": "SAN.MC",
+            "last": 10.63,
+            "target_pct": 11.4,
+            "stop_pct": -6.44
+        }
+    ]
+}
