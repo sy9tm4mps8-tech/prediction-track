@@ -1,0 +1,57 @@
+{
+    "schema": 2,
+    "kind": "scan",
+    "market": "us",
+    "computed_at": "2026-10-29T21:14:34+01:00",
+    "scan_date": "2026-10-29",
+    "close_date": "2026-10-29",
+    "regime": {
+        "env": "neutre",
+        "env_label": "Indécis"
+    },
+    "n": 7,
+    "candidates": [
+        {
+            "ticker": "ALNY",
+            "last": 174.0,
+            "target_pct": 28.95,
+            "stop_pct": -13.16
+        },
+        {
+            "ticker": "FTNT",
+            "last": 139.1,
+            "target_pct": 29.38,
+            "stop_pct": -15.08
+        },
+        {
+            "ticker": "NOW",
+            "last": 109.65,
+            "target_pct": 31.01,
+            "stop_pct": -16.56
+        },
+        {
+            "ticker": "CAT",
+            "last": 647.25,
+            "target_pct": 16.45,
+            "stop_pct": -9.54
+        },
+        {
+            "ticker": "FFIV",
+            "last": 363.46,
+            "target_pct": 24.05,
+            "stop_pct": -11.99
+        },
+        {
+            "ticker": "GOOGL",
+            "last": 283.82,
+            "target_pct": 18.77,
+            "stop_pct": -7.59
+        },
+        {
+            "ticker": "GOOG",
+            "last": 282.17,
+            "target_pct": 18.25,
+            "stop_pct": -7.5
+        }
+    ]
+}
