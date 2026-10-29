@@ -2,8 +2,8 @@
     "schema": 2,
     "kind": "scan",
     "market": "us",
-    "computed_at": "2026-10-28T21:13:50+01:00",
-    "scan_date": "2026-10-28",
+    "computed_at": "2026-10-29T13:07:45+01:00",
+    "scan_date": "2026-10-29",
     "close_date": "2026-10-28",
     "regime": {
         "env": "neutre",
@@ -19,8 +19,8 @@
         },
         {
             "ticker": "BA",
-            "last": 167.12,
-            "target_pct": 12.14,
+            "last": 167.14,
+            "target_pct": 12.12,
             "stop_pct": -6.54
         },
         {
