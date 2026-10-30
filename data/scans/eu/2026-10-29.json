@@ -1,0 +1,45 @@
+{
+    "schema": 2,
+    "kind": "scan",
+    "market": "eu",
+    "computed_at": "2026-10-30T07:02:54+01:00",
+    "scan_date": "2026-10-30",
+    "close_date": "2026-10-29",
+    "regime": {
+        "env": "neutre",
+        "env_label": "Indécis"
+    },
+    "n": 5,
+    "candidates": [
+        {
+            "ticker": "EDEN.PA",
+            "last": 24.04,
+            "target_pct": 14.0,
+            "stop_pct": -8.94
+        },
+        {
+            "ticker": "CA.PA",
+            "last": 13.07,
+            "target_pct": 16.08,
+            "stop_pct": -7.39
+        },
+        {
+            "ticker": "SAN.MC",
+            "last": 10.47,
+            "target_pct": 11.12,
+            "stop_pct": -6.43
+        },
+        {
+            "ticker": "HUH1V.HE",
+            "last": 25.78,
+            "target_pct": 4.46,
+            "stop_pct": -3.81
+        },
+        {
+            "ticker": "VNA.DE",
+            "last": 15.92,
+            "target_pct": 4.13,
+            "stop_pct": -5.65
+        }
+    ]
+}
