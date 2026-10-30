@@ -1,0 +1,81 @@
+{
+    "schema": 2,
+    "kind": "scan",
+    "market": "us",
+    "computed_at": "2026-10-30T21:13:43+01:00",
+    "scan_date": "2026-10-30",
+    "close_date": "2026-10-30",
+    "regime": {
+        "env": "neutre",
+        "env_label": "Indécis"
+    },
+    "n": 11,
+    "candidates": [
+        {
+            "ticker": "INTC",
+            "last": 65.76,
+            "target_pct": 46.58,
+            "stop_pct": -20.86
+        },
+        {
+            "ticker": "ALNY",
+            "last": 165.0,
+            "target_pct": 34.33,
+            "stop_pct": -14.75
+        },
+        {
+            "ticker": "FFIV",
+            "last": 338.34,
+            "target_pct": 31.55,
+            "stop_pct": -13.6
+        },
+        {
+            "ticker": "FTNT",
+            "last": 136.08,
+            "target_pct": 30.6,
+            "stop_pct": -15.34
+        },
+        {
+            "ticker": "NOW",
+            "last": 105.13,
+            "target_pct": 35.26,
+            "stop_pct": -17.0
+        },
+        {
+            "ticker": "TER",
+            "last": 274.37,
+            "target_pct": 28.14,
+            "stop_pct": -16.74
+        },
+        {
+            "ticker": "GOOGL",
+            "last": 279.84,
+            "target_pct": 19.32,
+            "stop_pct": -7.75
+        },
+        {
+            "ticker": "CAT",
+            "last": 622.69,
+            "target_pct": 19.27,
+            "stop_pct": -10.25
+        },
+        {
+            "ticker": "GOOG",
+            "last": 278.24,
+            "target_pct": 18.81,
+            "stop_pct": -7.68
+        },
+        {
+            "ticker": "APP",
+            "last": 228.5,
+            "target_pct": 17.09,
+            "stop_pct": -9.95
+        },
+        {
+            "ticker": "MELI",
+            "last": 1624.53,
+            "target_pct": 11.27,
+            "stop_pct": -7.81
+        }
+    ]
+}
