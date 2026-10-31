@@ -1,0 +1,45 @@
+{
+    "schema": 2,
+    "kind": "scan",
+    "market": "eu",
+    "computed_at": "2026-10-31T09:00:29+01:00",
+    "scan_date": "2026-10-31",
+    "close_date": "2026-10-30",
+    "regime": {
+        "env": "neutre",
+        "env_label": "Indécis"
+    },
+    "n": 5,
+    "candidates": [
+        {
+            "ticker": "SAN.MC",
+            "last": 10.12,
+            "target_pct": 14.28,
+            "stop_pct": -6.92
+        },
+        {
+            "ticker": "BBVA.MC",
+            "last": 21.06,
+            "target_pct": 8.11,
+            "stop_pct": -5.96
+        },
+        {
+            "ticker": "MAP.MC",
+            "last": 3.98,
+            "target_pct": 7.44,
+            "stop_pct": -4.28
+        },
+        {
+            "ticker": "BKT.MC",
+            "last": 13.9,
+            "target_pct": 6.99,
+            "stop_pct": -5.4
+        },
+        {
+            "ticker": "HUH1V.HE",
+            "last": 25.62,
+            "target_pct": 4.86,
+            "stop_pct": -3.85
+        }
+    ]
+}
