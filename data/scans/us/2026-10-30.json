@@ -2,8 +2,8 @@
     "schema": 2,
     "kind": "scan",
     "market": "us",
-    "computed_at": "2026-10-30T21:13:43+01:00",
-    "scan_date": "2026-10-30",
+    "computed_at": "2026-10-31T09:00:29+01:00",
+    "scan_date": "2026-10-31",
     "close_date": "2026-10-30",
     "regime": {
         "env": "neutre",
@@ -37,8 +37,8 @@
         },
         {
             "ticker": "NOW",
-            "last": 105.13,
-            "target_pct": 35.26,
+            "last": 105.12,
+            "target_pct": 35.27,
             "stop_pct": -17.0
         },
         {
@@ -55,14 +55,14 @@
         },
         {
             "ticker": "CAT",
-            "last": 622.69,
-            "target_pct": 19.27,
+            "last": 622.75,
+            "target_pct": 19.26,
             "stop_pct": -10.25
         },
         {
             "ticker": "GOOG",
-            "last": 278.24,
-            "target_pct": 18.81,
+            "last": 278.22,
+            "target_pct": 18.82,
             "stop_pct": -7.68
         },
         {
