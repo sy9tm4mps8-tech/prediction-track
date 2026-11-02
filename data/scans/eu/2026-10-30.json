@@ -2,14 +2,14 @@
     "schema": 2,
     "kind": "scan",
     "market": "eu",
-    "computed_at": "2026-10-31T09:00:29+01:00",
-    "scan_date": "2026-10-31",
+    "computed_at": "2026-11-02T07:03:55+01:00",
+    "scan_date": "2026-11-02",
     "close_date": "2026-10-30",
     "regime": {
         "env": "neutre",
         "env_label": "Indécis"
     },
-    "n": 5,
+    "n": 4,
     "candidates": [
         {
             "ticker": "SAN.MC",
@@ -25,15 +25,9 @@
         },
         {
             "ticker": "MAP.MC",
-            "last": 3.98,
-            "target_pct": 7.44,
-            "stop_pct": -4.28
-        },
-        {
-            "ticker": "BKT.MC",
-            "last": 13.9,
-            "target_pct": 6.99,
-            "stop_pct": -5.4
+            "last": 3.99,
+            "target_pct": 7.28,
+            "stop_pct": -4.27
         },
         {
             "ticker": "HUH1V.HE",
