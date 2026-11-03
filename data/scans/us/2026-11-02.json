@@ -1,0 +1,99 @@
+{
+    "schema": 2,
+    "kind": "scan",
+    "market": "us",
+    "computed_at": "2026-11-03T13:07:00+01:00",
+    "scan_date": "2026-11-03",
+    "close_date": "2026-11-02",
+    "regime": {
+        "env": "neutre",
+        "env_label": "Indécis"
+    },
+    "n": 14,
+    "candidates": [
+        {
+            "ticker": "INTC",
+            "last": 59.97,
+            "target_pct": 56.04,
+            "stop_pct": -23.28
+        },
+        {
+            "ticker": "MRVL",
+            "last": 171.41,
+            "target_pct": 41.76,
+            "stop_pct": -22.49
+        },
+        {
+            "ticker": "FTNT",
+            "last": 126.21,
+            "target_pct": 38.52,
+            "stop_pct": -16.93
+        },
+        {
+            "ticker": "ALNY",
+            "last": 158.0,
+            "target_pct": 38.32,
+            "stop_pct": -15.49
+        },
+        {
+            "ticker": "NOW",
+            "last": 106.01,
+            "target_pct": 32.71,
+            "stop_pct": -16.6
+        },
+        {
+            "ticker": "IREN",
+            "last": 22.02,
+            "target_pct": 35.09,
+            "stop_pct": -25.13
+        },
+        {
+            "ticker": "TER",
+            "last": 261.01,
+            "target_pct": 31.18,
+            "stop_pct": -17.54
+        },
+        {
+            "ticker": "FFIV",
+            "last": 324.55,
+            "target_pct": 35.08,
+            "stop_pct": -14.22
+        },
+        {
+            "ticker": "SNDK",
+            "last": 1075.08,
+            "target_pct": 29.04,
+            "stop_pct": -18.43
+        },
+        {
+            "ticker": "APP",
+            "last": 228.85,
+            "target_pct": 15.75,
+            "stop_pct": -10.09
+        },
+        {
+            "ticker": "COIN",
+            "last": 137.83,
+            "target_pct": 22.71,
+            "stop_pct": -15.39
+        },
+        {
+            "ticker": "CAT",
+            "last": 613.62,
+            "target_pct": 19.14,
+            "stop_pct": -9.9
+        },
+        {
+            "ticker": "GOOGL",
+            "last": 278.99,
+            "target_pct": 18.47,
+            "stop_pct": -7.83
+        },
+        {
+            "ticker": "GOOG",
+            "last": 278.04,
+            "target_pct": 17.71,
+            "stop_pct": -7.71
+        }
+    ]
+}
