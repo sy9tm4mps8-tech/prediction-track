@@ -1,0 +1,27 @@
+{
+    "schema": 2,
+    "kind": "scan",
+    "market": "eu",
+    "computed_at": "2026-11-04T07:03:17+01:00",
+    "scan_date": "2026-11-04",
+    "close_date": "2026-11-03",
+    "regime": {
+        "env": "neutre",
+        "env_label": "Indécis"
+    },
+    "n": 2,
+    "candidates": [
+        {
+            "ticker": "ALO.PA",
+            "last": 11.04,
+            "target_pct": 40.8,
+            "stop_pct": -14.23
+        },
+        {
+            "ticker": "FR.PA",
+            "last": 10.95,
+            "target_pct": 16.11,
+            "stop_pct": -11.4
+        }
+    ]
+}
