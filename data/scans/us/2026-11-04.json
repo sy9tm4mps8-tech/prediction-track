@@ -1,0 +1,69 @@
+{
+    "schema": 2,
+    "kind": "scan",
+    "market": "us",
+    "computed_at": "2026-11-05T13:07:06+01:00",
+    "scan_date": "2026-11-05",
+    "close_date": "2026-11-04",
+    "regime": {
+        "env": "neutre",
+        "env_label": "Indécis"
+    },
+    "n": 9,
+    "candidates": [
+        {
+            "ticker": "INTC",
+            "last": 58.27,
+            "target_pct": 51.43,
+            "stop_pct": -22.31
+        },
+        {
+            "ticker": "MRVL",
+            "last": 159.8,
+            "target_pct": 44.56,
+            "stop_pct": -22.83
+        },
+        {
+            "ticker": "DDOG",
+            "last": 188.72,
+            "target_pct": 37.87,
+            "stop_pct": -20.27
+        },
+        {
+            "ticker": "FTNT",
+            "last": 129.39,
+            "target_pct": 30.36,
+            "stop_pct": -16.26
+        },
+        {
+            "ticker": "TER",
+            "last": 250.99,
+            "target_pct": 30.01,
+            "stop_pct": -17.29
+        },
+        {
+            "ticker": "CAT",
+            "last": 591.3,
+            "target_pct": 19.76,
+            "stop_pct": -9.8
+        },
+        {
+            "ticker": "LRCX",
+            "last": 221.43,
+            "target_pct": 18.33,
+            "stop_pct": -13.2
+        },
+        {
+            "ticker": "ZBRA",
+            "last": 332.44,
+            "target_pct": 12.82,
+            "stop_pct": -9.83
+        },
+        {
+            "ticker": "MDGL",
+            "last": 400.43,
+            "target_pct": 11.09,
+            "stop_pct": -11.78
+        }
+    ]
+}
