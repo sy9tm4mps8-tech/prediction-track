@@ -1,0 +1,219 @@
+{
+    "schema": 2,
+    "kind": "scan",
+    "market": "us",
+    "computed_at": "2026-11-06T13:07:59+01:00",
+    "scan_date": "2026-11-06",
+    "close_date": "2026-11-05",
+    "regime": {
+        "env": "neutre",
+        "env_label": "Indécis"
+    },
+    "n": 34,
+    "candidates": [
+        {
+            "ticker": "MRVL",
+            "last": 133.55,
+            "target_pct": 67.69,
+            "stop_pct": -28.66
+        },
+        {
+            "ticker": "INTC",
+            "last": 52.25,
+            "target_pct": 63.63,
+            "stop_pct": -25.04
+        },
+        {
+            "ticker": "SNDK",
+            "last": 806.43,
+            "target_pct": 59.68,
+            "stop_pct": -26.65
+        },
+        {
+            "ticker": "ALAB",
+            "last": 179.47,
+            "target_pct": 53.64,
+            "stop_pct": -27.52
+        },
+        {
+            "ticker": "IREN",
+            "last": 18.03,
+            "target_pct": 50.71,
+            "stop_pct": -29.41
+        },
+        {
+            "ticker": "TER",
+            "last": 212.74,
+            "target_pct": 49.01,
+            "stop_pct": -21.76
+        },
+        {
+            "ticker": "LITE",
+            "last": 509.7,
+            "target_pct": 62.38,
+            "stop_pct": -31.96
+        },
+        {
+            "ticker": "NBIS",
+            "last": 120.37,
+            "target_pct": 41.07,
+            "stop_pct": -25.48
+        },
+        {
+            "ticker": "DDOG",
+            "last": 174.6,
+            "target_pct": 46.17,
+            "stop_pct": -21.32
+        },
+        {
+            "ticker": "CRWV",
+            "last": 43.66,
+            "target_pct": 39.97,
+            "stop_pct": -26.65
+        },
+        {
+            "ticker": "STX",
+            "last": 466.53,
+            "target_pct": 41.59,
+            "stop_pct": -22.66
+        },
+        {
+            "ticker": "TSEM",
+            "last": 130.99,
+            "target_pct": 41.41,
+            "stop_pct": -23.43
+        },
+        {
+            "ticker": "LRCX",
+            "last": 185.2,
+            "target_pct": 37.83,
+            "stop_pct": -17.55
+        },
+        {
+            "ticker": "ASTS",
+            "last": 30.2,
+            "target_pct": 36.8,
+            "stop_pct": -23.78
+        },
+        {
+            "ticker": "MU",
+            "last": 656.39,
+            "target_pct": 36.49,
+            "stop_pct": -17.49
+        },
+        {
+            "ticker": "WDC",
+            "last": 267.63,
+            "target_pct": 34.19,
+            "stop_pct": -20.46
+        },
+        {
+            "ticker": "ARM",
+            "last": 166.72,
+            "target_pct": 33.82,
+            "stop_pct": -16.95
+        },
+        {
+            "ticker": "FFIV",
+            "last": 311.74,
+            "target_pct": 33.81,
+            "stop_pct": -14.25
+        },
+        {
+            "ticker": "AMAT",
+            "last": 319.25,
+            "target_pct": 28.28,
+            "stop_pct": -13.98
+        },
+        {
+            "ticker": "NOW",
+            "last": 102.36,
+            "target_pct": 32.79,
+            "stop_pct": -15.54
+        },
+        {
+            "ticker": "AMD",
+            "last": 404.4,
+            "target_pct": 32.36,
+            "stop_pct": -17.75
+        },
+        {
+            "ticker": "CAT",
+            "last": 553.64,
+            "target_pct": 25.73,
+            "stop_pct": -11.14
+        },
+        {
+            "ticker": "KLAC",
+            "last": 129.8,
+            "target_pct": 25.18,
+            "stop_pct": -13.99
+        },
+        {
+            "ticker": "GFS",
+            "last": 36.36,
+            "target_pct": 24.2,
+            "stop_pct": -15.43
+        },
+        {
+            "ticker": "NVDA",
+            "last": 181.6,
+            "target_pct": 17.66,
+            "stop_pct": -8.22
+        },
+        {
+            "ticker": "AVAV",
+            "last": 102.08,
+            "target_pct": 20.32,
+            "stop_pct": -15.15
+        },
+        {
+            "ticker": "KTOS",
+            "last": 33.39,
+            "target_pct": 19.32,
+            "stop_pct": -14.5
+        },
+        {
+            "ticker": "ASML",
+            "last": 1356.65,
+            "target_pct": 19.12,
+            "stop_pct": -9.99
+        },
+        {
+            "ticker": "NTNX",
+            "last": 58.55,
+            "target_pct": 18.0,
+            "stop_pct": -8.83
+        },
+        {
+            "ticker": "ZBRA",
+            "last": 321.64,
+            "target_pct": 15.67,
+            "stop_pct": -10.36
+        },
+        {
+            "ticker": "PLTR",
+            "last": 154.99,
+            "target_pct": 24.23,
+            "stop_pct": -13.03
+        },
+        {
+            "ticker": "BKR",
+            "last": 46.2,
+            "target_pct": 18.3,
+            "stop_pct": -10.08
+        },
+        {
+            "ticker": "AKAM",
+            "last": 77.84,
+            "target_pct": 19.31,
+            "stop_pct": -12.15
+        },
+        {
+            "ticker": "MDGL",
+            "last": 400.1,
+            "target_pct": 10.22,
+            "stop_pct": -12.03
+        }
+    ]
+}
