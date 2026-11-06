@@ -1,0 +1,51 @@
+{
+    "schema": 2,
+    "kind": "scan",
+    "market": "eu",
+    "computed_at": "2026-11-06T07:02:58+01:00",
+    "scan_date": "2026-11-06",
+    "close_date": "2026-11-05",
+    "regime": {
+        "env": "neutre",
+        "env_label": "Indécis"
+    },
+    "n": 6,
+    "candidates": [
+        {
+            "ticker": "ALO.PA",
+            "last": 10.88,
+            "target_pct": 38.46,
+            "stop_pct": -14.33
+        },
+        {
+            "ticker": "RHM.DE",
+            "last": 837.6,
+            "target_pct": 20.13,
+            "stop_pct": -11.16
+        },
+        {
+            "ticker": "ASM.AS",
+            "last": 629.2,
+            "target_pct": 19.9,
+            "stop_pct": -12.61
+        },
+        {
+            "ticker": "FR.PA",
+            "last": 10.82,
+            "target_pct": 14.61,
+            "stop_pct": -11.02
+        },
+        {
+            "ticker": "MELE.BR",
+            "last": 52.0,
+            "target_pct": 10.66,
+            "stop_pct": -8.13
+        },
+        {
+            "ticker": "ASML.AS",
+            "last": 1242.2,
+            "target_pct": 17.08,
+            "stop_pct": -9.6
+        }
+    ]
+}
