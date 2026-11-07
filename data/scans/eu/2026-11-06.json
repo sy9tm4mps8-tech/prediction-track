@@ -1,0 +1,45 @@
+{
+    "schema": 2,
+    "kind": "scan",
+    "market": "eu",
+    "computed_at": "2026-11-07T09:00:25+01:00",
+    "scan_date": "2026-11-07",
+    "close_date": "2026-11-06",
+    "regime": {
+        "env": "neutre",
+        "env_label": "Indécis"
+    },
+    "n": 5,
+    "candidates": [
+        {
+            "ticker": "ALO.PA",
+            "last": 10.76,
+            "target_pct": 37.73,
+            "stop_pct": -14.27
+        },
+        {
+            "ticker": "OUT1V.HE",
+            "last": 3.79,
+            "target_pct": 23.15,
+            "stop_pct": -10.94
+        },
+        {
+            "ticker": "RHM.DE",
+            "last": 811.3,
+            "target_pct": 23.27,
+            "stop_pct": -11.3
+        },
+        {
+            "ticker": "ACX.MC",
+            "last": 14.99,
+            "target_pct": 9.83,
+            "stop_pct": -7.45
+        },
+        {
+            "ticker": "GALP.LS",
+            "last": 19.17,
+            "target_pct": 11.55,
+            "stop_pct": -7.42
+        }
+    ]
+}
