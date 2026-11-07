@@ -1,0 +1,123 @@
+{
+    "schema": 2,
+    "kind": "scan",
+    "market": "us",
+    "computed_at": "2026-11-07T09:00:30+01:00",
+    "scan_date": "2026-11-07",
+    "close_date": "2026-11-06",
+    "regime": {
+        "env": "neutre",
+        "env_label": "Indécis"
+    },
+    "n": 18,
+    "candidates": [
+        {
+            "ticker": "MRVL",
+            "last": 141.2,
+            "target_pct": 53.85,
+            "stop_pct": -26.5
+        },
+        {
+            "ticker": "SNDK",
+            "last": 835.06,
+            "target_pct": 49.73,
+            "stop_pct": -25.71
+        },
+        {
+            "ticker": "LITE",
+            "last": 538.59,
+            "target_pct": 48.42,
+            "stop_pct": -30.22
+        },
+        {
+            "ticker": "INTC",
+            "last": 56.28,
+            "target_pct": 47.61,
+            "stop_pct": -23.13
+        },
+        {
+            "ticker": "TER",
+            "last": 218.22,
+            "target_pct": 41.05,
+            "stop_pct": -21.16
+        },
+        {
+            "ticker": "ALAB",
+            "last": 190.71,
+            "target_pct": 40.61,
+            "stop_pct": -25.92
+        },
+        {
+            "ticker": "DDOG",
+            "last": 179.04,
+            "target_pct": 39.36,
+            "stop_pct": -20.12
+        },
+        {
+            "ticker": "FTNT",
+            "last": 118.84,
+            "target_pct": 35.93,
+            "stop_pct": -17.1
+        },
+        {
+            "ticker": "STX",
+            "last": 460.99,
+            "target_pct": 39.8,
+            "stop_pct": -23.61
+        },
+        {
+            "ticker": "AXON",
+            "last": 313.0,
+            "target_pct": 30.33,
+            "stop_pct": -15.2
+        },
+        {
+            "ticker": "WDC",
+            "last": 263.78,
+            "target_pct": 33.62,
+            "stop_pct": -21.04
+        },
+        {
+            "ticker": "NTRA",
+            "last": 310.67,
+            "target_pct": 27.69,
+            "stop_pct": -16.05
+        },
+        {
+            "ticker": "FFIV",
+            "last": 310.84,
+            "target_pct": 31.47,
+            "stop_pct": -14.04
+        },
+        {
+            "ticker": "NOW",
+            "last": 101.97,
+            "target_pct": 31.39,
+            "stop_pct": -15.38
+        },
+        {
+            "ticker": "MCHP",
+            "last": 58.35,
+            "target_pct": 27.68,
+            "stop_pct": -16.24
+        },
+        {
+            "ticker": "CAT",
+            "last": 558.63,
+            "target_pct": 22.46,
+            "stop_pct": -10.96
+        },
+        {
+            "ticker": "CSCO",
+            "last": 93.85,
+            "target_pct": 13.79,
+            "stop_pct": -7.55
+        },
+        {
+            "ticker": "NTNX",
+            "last": 58.37,
+            "target_pct": 16.97,
+            "stop_pct": -9.01
+        }
+    ]
+}
