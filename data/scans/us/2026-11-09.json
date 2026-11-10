@@ -1,0 +1,69 @@
+{
+    "schema": 2,
+    "kind": "scan",
+    "market": "us",
+    "computed_at": "2026-11-10T13:06:31+01:00",
+    "scan_date": "2026-11-10",
+    "close_date": "2026-11-09",
+    "regime": {
+        "env": "neutre",
+        "env_label": "Indécis"
+    },
+    "n": 9,
+    "candidates": [
+        {
+            "ticker": "SNDK",
+            "last": 886.51,
+            "target_pct": 37.66,
+            "stop_pct": -24.45
+        },
+        {
+            "ticker": "DDOG",
+            "last": 179.62,
+            "target_pct": 35.91,
+            "stop_pct": -19.87
+        },
+        {
+            "ticker": "IONS",
+            "last": 31.0,
+            "target_pct": 36.17,
+            "stop_pct": -15.75
+        },
+        {
+            "ticker": "FTNT",
+            "last": 122.47,
+            "target_pct": 29.03,
+            "stop_pct": -16.37
+        },
+        {
+            "ticker": "NOW",
+            "last": 102.76,
+            "target_pct": 28.55,
+            "stop_pct": -15.03
+        },
+        {
+            "ticker": "AXON",
+            "last": 303.18,
+            "target_pct": 32.71,
+            "stop_pct": -15.81
+        },
+        {
+            "ticker": "FFIV",
+            "last": 317.75,
+            "target_pct": 26.16,
+            "stop_pct": -13.36
+        },
+        {
+            "ticker": "NVDA",
+            "last": 178.67,
+            "target_pct": 17.07,
+            "stop_pct": -9.83
+        },
+        {
+            "ticker": "NTNX",
+            "last": 59.49,
+            "target_pct": 13.54,
+            "stop_pct": -8.99
+        }
+    ]
+}
