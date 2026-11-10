@@ -1,0 +1,27 @@
+{
+    "schema": 2,
+    "kind": "scan",
+    "market": "eu",
+    "computed_at": "2026-11-10T07:02:51+01:00",
+    "scan_date": "2026-11-10",
+    "close_date": "2026-11-09",
+    "regime": {
+        "env": "neutre",
+        "env_label": "Indécis"
+    },
+    "n": 2,
+    "candidates": [
+        {
+            "ticker": "OUT1V.HE",
+            "last": 3.67,
+            "target_pct": 25.63,
+            "stop_pct": -11.73
+        },
+        {
+            "ticker": "GALP.LS",
+            "last": 19.04,
+            "target_pct": 11.44,
+            "stop_pct": -7.17
+        }
+    ]
+}
