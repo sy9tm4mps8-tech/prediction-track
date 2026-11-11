@@ -1,0 +1,33 @@
+{
+    "schema": 2,
+    "kind": "scan",
+    "market": "eu",
+    "computed_at": "2026-11-11T07:02:40+01:00",
+    "scan_date": "2026-11-11",
+    "close_date": "2026-11-10",
+    "regime": {
+        "env": "neutre",
+        "env_label": "Indécis"
+    },
+    "n": 3,
+    "candidates": [
+        {
+            "ticker": "ALO.PA",
+            "last": 10.55,
+            "target_pct": 35.18,
+            "stop_pct": -14.16
+        },
+        {
+            "ticker": "OUT1V.HE",
+            "last": 3.76,
+            "target_pct": 21.04,
+            "stop_pct": -11.43
+        },
+        {
+            "ticker": "GALP.LS",
+            "last": 18.69,
+            "target_pct": 12.44,
+            "stop_pct": -7.38
+        }
+    ]
+}
