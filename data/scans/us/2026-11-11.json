@@ -1,0 +1,27 @@
+{
+    "schema": 2,
+    "kind": "scan",
+    "market": "us",
+    "computed_at": "2026-11-12T13:06:36+01:00",
+    "scan_date": "2026-11-12",
+    "close_date": "2026-11-11",
+    "regime": {
+        "env": "neutre",
+        "env_label": "Indécis"
+    },
+    "n": 2,
+    "candidates": [
+        {
+            "ticker": "IONS",
+            "last": 28.33,
+            "target_pct": 43.96,
+            "stop_pct": -17.85
+        },
+        {
+            "ticker": "NVDA",
+            "last": 173.73,
+            "target_pct": 17.31,
+            "stop_pct": -10.52
+        }
+    ]
+}
