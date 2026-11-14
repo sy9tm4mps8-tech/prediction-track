@@ -1,0 +1,33 @@
+{
+    "schema": 2,
+    "kind": "scan",
+    "market": "eu",
+    "computed_at": "2026-11-14T09:00:30+01:00",
+    "scan_date": "2026-11-14",
+    "close_date": "2026-11-13",
+    "regime": {
+        "env": "neutre",
+        "env_label": "Indécis"
+    },
+    "n": 3,
+    "candidates": [
+        {
+            "ticker": "ALO.PA",
+            "last": 10.13,
+            "target_pct": 32.24,
+            "stop_pct": -14.51
+        },
+        {
+            "ticker": "RHM.DE",
+            "last": 767.6,
+            "target_pct": 23.9,
+            "stop_pct": -13.23
+        },
+        {
+            "ticker": "VOE.VI",
+            "last": 36.64,
+            "target_pct": 13.26,
+            "stop_pct": -9.74
+        }
+    ]
+}
