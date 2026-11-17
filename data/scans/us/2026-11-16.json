@@ -1,0 +1,57 @@
+{
+    "schema": 2,
+    "kind": "scan",
+    "market": "us",
+    "computed_at": "2026-11-17T13:06:52+01:00",
+    "scan_date": "2026-11-17",
+    "close_date": "2026-11-16",
+    "regime": {
+        "env": "neutre",
+        "env_label": "Indécis"
+    },
+    "n": 7,
+    "candidates": [
+        {
+            "ticker": "DDOG",
+            "last": 172.86,
+            "target_pct": 29.02,
+            "stop_pct": -17.89
+        },
+        {
+            "ticker": "NTRA",
+            "last": 288.48,
+            "target_pct": 28.79,
+            "stop_pct": -18.11
+        },
+        {
+            "ticker": "NVDA",
+            "last": 156.14,
+            "target_pct": 25.3,
+            "stop_pct": -14.51
+        },
+        {
+            "ticker": "INTC",
+            "last": 55.47,
+            "target_pct": 29.65,
+            "stop_pct": -22.49
+        },
+        {
+            "ticker": "MSTR",
+            "last": 103.03,
+            "target_pct": 28.69,
+            "stop_pct": -17.35
+        },
+        {
+            "ticker": "COIN",
+            "last": 119.84,
+            "target_pct": 23.4,
+            "stop_pct": -16.49
+        },
+        {
+            "ticker": "FFIV",
+            "last": 304.68,
+            "target_pct": 19.86,
+            "stop_pct": -13.11
+        }
+    ]
+}
