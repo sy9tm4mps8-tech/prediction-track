@@ -1,0 +1,87 @@
+{
+    "schema": 2,
+    "kind": "scan",
+    "market": "us",
+    "computed_at": "2026-11-18T13:06:37+01:00",
+    "scan_date": "2026-11-18",
+    "close_date": "2026-11-17",
+    "regime": {
+        "env": "neutre",
+        "env_label": "Indécis"
+    },
+    "n": 12,
+    "candidates": [
+        {
+            "ticker": "IREN",
+            "last": 15.81,
+            "target_pct": 42.31,
+            "stop_pct": -34.93
+        },
+        {
+            "ticker": "MSTR",
+            "last": 96.5,
+            "target_pct": 35.0,
+            "stop_pct": -18.64
+        },
+        {
+            "ticker": "NOW",
+            "last": 92.9,
+            "target_pct": 27.86,
+            "stop_pct": -15.77
+        },
+        {
+            "ticker": "DDOG",
+            "last": 165.18,
+            "target_pct": 32.25,
+            "stop_pct": -18.88
+        },
+        {
+            "ticker": "NVDA",
+            "last": 155.46,
+            "target_pct": 23.88,
+            "stop_pct": -14.79
+        },
+        {
+            "ticker": "INTC",
+            "last": 55.17,
+            "target_pct": 27.04,
+            "stop_pct": -22.71
+        },
+        {
+            "ticker": "COIN",
+            "last": 115.02,
+            "target_pct": 26.14,
+            "stop_pct": -17.38
+        },
+        {
+            "ticker": "NTRA",
+            "last": 287.47,
+            "target_pct": 27.18,
+            "stop_pct": -17.99
+        },
+        {
+            "ticker": "CRM",
+            "last": 194.52,
+            "target_pct": 16.54,
+            "stop_pct": -9.39
+        },
+        {
+            "ticker": "FFIV",
+            "last": 305.15,
+            "target_pct": 17.19,
+            "stop_pct": -8.87
+        },
+        {
+            "ticker": "NTNX",
+            "last": 56.52,
+            "target_pct": 14.26,
+            "stop_pct": -9.92
+        },
+        {
+            "ticker": "BIDU",
+            "last": 71.15,
+            "target_pct": 9.75,
+            "stop_pct": -8.2
+        }
+    ]
+}
