@@ -1,0 +1,45 @@
+{
+    "schema": 2,
+    "kind": "scan",
+    "market": "eu",
+    "computed_at": "2026-11-19T07:03:05+01:00",
+    "scan_date": "2026-11-19",
+    "close_date": "2026-11-18",
+    "regime": {
+        "env": "neutre",
+        "env_label": "Indécis"
+    },
+    "n": 5,
+    "candidates": [
+        {
+            "ticker": "ALO.PA",
+            "last": 9.23,
+            "target_pct": 34.97,
+            "stop_pct": -17.78
+        },
+        {
+            "ticker": "VOE.VI",
+            "last": 34.88,
+            "target_pct": 15.09,
+            "stop_pct": -9.71
+        },
+        {
+            "ticker": "OUT1V.HE",
+            "last": 3.44,
+            "target_pct": 21.28,
+            "stop_pct": -11.24
+        },
+        {
+            "ticker": "STLAP.PA",
+            "last": 3.27,
+            "target_pct": 16.89,
+            "stop_pct": -10.54
+        },
+        {
+            "ticker": "UMI.BR",
+            "last": 16.18,
+            "target_pct": 11.27,
+            "stop_pct": -9.1
+        }
+    ]
+}
