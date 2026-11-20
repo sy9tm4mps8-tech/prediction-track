@@ -1,0 +1,63 @@
+{
+    "schema": 2,
+    "kind": "scan",
+    "market": "eu",
+    "computed_at": "2026-11-20T07:03:12+01:00",
+    "scan_date": "2026-11-20",
+    "close_date": "2026-11-19",
+    "regime": {
+        "env": "neutre",
+        "env_label": "Indécis"
+    },
+    "n": 8,
+    "candidates": [
+        {
+            "ticker": "ALO.PA",
+            "last": 8.9,
+            "target_pct": 36.1,
+            "stop_pct": -18.7
+        },
+        {
+            "ticker": "RHM.DE",
+            "last": 722.2,
+            "target_pct": 23.69,
+            "stop_pct": -14.23
+        },
+        {
+            "ticker": "OUT1V.HE",
+            "last": 3.46,
+            "target_pct": 18.83,
+            "stop_pct": -10.73
+        },
+        {
+            "ticker": "STLAP.PA",
+            "last": 3.23,
+            "target_pct": 17.37,
+            "stop_pct": -10.4
+        },
+        {
+            "ticker": "VOE.VI",
+            "last": 34.18,
+            "target_pct": 16.05,
+            "stop_pct": -9.77
+        },
+        {
+            "ticker": "GALP.LS",
+            "last": 18.67,
+            "target_pct": 6.1,
+            "stop_pct": -4.74
+        },
+        {
+            "ticker": "PAH3.DE",
+            "last": 23.11,
+            "target_pct": 8.34,
+            "stop_pct": -5.53
+        },
+        {
+            "ticker": "NESTE.HE",
+            "last": 26.22,
+            "target_pct": 7.18,
+            "stop_pct": -5.98
+        }
+    ]
+}
