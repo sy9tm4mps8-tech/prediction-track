@@ -1,0 +1,315 @@
+{
+    "schema": 2,
+    "kind": "scan",
+    "market": "us",
+    "computed_at": "2026-11-21T00:07:01+01:00",
+    "scan_date": "2026-11-21",
+    "close_date": "2026-11-20",
+    "regime": {
+        "env": "fav",
+        "env_label": "Favorable"
+    },
+    "n": 50,
+    "candidates": [
+        {
+            "ticker": "NBIS",
+            "last": 81.31,
+            "target_pct": 65.39,
+            "stop_pct": -43.21
+        },
+        {
+            "ticker": "IREN",
+            "last": 11.82,
+            "target_pct": 74.73,
+            "stop_pct": -44.12
+        },
+        {
+            "ticker": "ASTS",
+            "last": 23.27,
+            "target_pct": 47.0,
+            "stop_pct": -33.3
+        },
+        {
+            "ticker": "MSTR",
+            "last": 77.8,
+            "target_pct": 55.17,
+            "stop_pct": -21.75
+        },
+        {
+            "ticker": "SNDK",
+            "last": 79.24,
+            "target_pct": 54.95,
+            "stop_pct": -33.39
+        },
+        {
+            "ticker": "MRVL",
+            "last": 122.28,
+            "target_pct": 39.89,
+            "stop_pct": -24.54
+        },
+        {
+            "ticker": "NVDA",
+            "last": 125.64,
+            "target_pct": 44.44,
+            "stop_pct": -20.44
+        },
+        {
+            "ticker": "SMCI",
+            "last": 21.65,
+            "target_pct": 33.48,
+            "stop_pct": -23.04
+        },
+        {
+            "ticker": "DDOG",
+            "last": 157.37,
+            "target_pct": 28.98,
+            "stop_pct": -16.2
+        },
+        {
+            "ticker": "INTC",
+            "last": 51.28,
+            "target_pct": 26.57,
+            "stop_pct": -16.85
+        },
+        {
+            "ticker": "TER",
+            "last": 204.78,
+            "target_pct": 25.33,
+            "stop_pct": -21.71
+        },
+        {
+            "ticker": "NTRA",
+            "last": 273.4,
+            "target_pct": 27.04,
+            "stop_pct": -17.01
+        },
+        {
+            "ticker": "FSLR",
+            "last": 137.59,
+            "target_pct": 26.51,
+            "stop_pct": -17.98
+        },
+        {
+            "ticker": "COIN",
+            "last": 101.97,
+            "target_pct": 33.01,
+            "stop_pct": -17.35
+        },
+        {
+            "ticker": "MU",
+            "last": 594.51,
+            "target_pct": 32.32,
+            "stop_pct": -22.99
+        },
+        {
+            "ticker": "MCHP",
+            "last": 55.44,
+            "target_pct": 21.4,
+            "stop_pct": -16.67
+        },
+        {
+            "ticker": "KTOS",
+            "last": 26.89,
+            "target_pct": 34.35,
+            "stop_pct": -18.67
+        },
+        {
+            "ticker": "AVAV",
+            "last": 86.79,
+            "target_pct": 33.93,
+            "stop_pct": -20.53
+        },
+        {
+            "ticker": "PLTR",
+            "last": 143.49,
+            "target_pct": 19.75,
+            "stop_pct": -13.7
+        },
+        {
+            "ticker": "INTU",
+            "last": 270.44,
+            "target_pct": 23.54,
+            "stop_pct": -11.31
+        },
+        {
+            "ticker": "ASML",
+            "last": 1266.22,
+            "target_pct": 17.83,
+            "stop_pct": -11.66
+        },
+        {
+            "ticker": "SHOP",
+            "last": 123.72,
+            "target_pct": 21.15,
+            "stop_pct": -15.06
+        },
+        {
+            "ticker": "CRM",
+            "last": 180.58,
+            "target_pct": 20.38,
+            "stop_pct": -10.03
+        },
+        {
+            "ticker": "UNH",
+            "last": 340.3,
+            "target_pct": 15.94,
+            "stop_pct": -9.46
+        },
+        {
+            "ticker": "NOW",
+            "last": 87.63,
+            "target_pct": 24.02,
+            "stop_pct": -10.68
+        },
+        {
+            "ticker": "CAT",
+            "last": 510.45,
+            "target_pct": 18.21,
+            "stop_pct": -11.23
+        },
+        {
+            "ticker": "DKNG",
+            "last": 15.8,
+            "target_pct": 25.15,
+            "stop_pct": -18.92
+        },
+        {
+            "ticker": "SYM",
+            "last": 31.1,
+            "target_pct": 16.32,
+            "stop_pct": -13.9
+        },
+        {
+            "ticker": "AFRM",
+            "last": 54.0,
+            "target_pct": 24.76,
+            "stop_pct": -14.38
+        },
+        {
+            "ticker": "NTNX",
+            "last": 54.22,
+            "target_pct": 15.29,
+            "stop_pct": -9.54
+        },
+        {
+            "ticker": "BIDU",
+            "last": 61.9,
+            "target_pct": 23.2,
+            "stop_pct": -10.15
+        },
+        {
+            "ticker": "SKYD",
+            "last": 6.21,
+            "target_pct": 22.75,
+            "stop_pct": -13.84
+        },
+        {
+            "ticker": "TRMB",
+            "last": 50.62,
+            "target_pct": 14.27,
+            "stop_pct": -10.06
+        },
+        {
+            "ticker": "RIVN",
+            "last": 10.33,
+            "target_pct": 20.81,
+            "stop_pct": -13.42
+        },
+        {
+            "ticker": "NFLX",
+            "last": 56.73,
+            "target_pct": 9.79,
+            "stop_pct": -7.15
+        },
+        {
+            "ticker": "ZBRA",
+            "last": 301.53,
+            "target_pct": 11.75,
+            "stop_pct": -9.66
+        },
+        {
+            "ticker": "ALNY",
+            "last": 143.82,
+            "target_pct": 16.97,
+            "stop_pct": -11.21
+        },
+        {
+            "ticker": "GOOGL",
+            "last": 265.29,
+            "target_pct": 9.11,
+            "stop_pct": -8.61
+        },
+        {
+            "ticker": "GOOG",
+            "last": 264.0,
+            "target_pct": 8.81,
+            "stop_pct": -8.51
+        },
+        {
+            "ticker": "NTAP",
+            "last": 157.65,
+            "target_pct": 18.83,
+            "stop_pct": -12.95
+        },
+        {
+            "ticker": "MELI",
+            "last": 1355.0,
+            "target_pct": 14.24,
+            "stop_pct": -9.87
+        },
+        {
+            "ticker": "GS",
+            "last": 790.91,
+            "target_pct": 12.93,
+            "stop_pct": -8.37
+        },
+        {
+            "ticker": "STLD",
+            "last": 205.96,
+            "target_pct": 13.85,
+            "stop_pct": -9.78
+        },
+        {
+            "ticker": "COF",
+            "last": 178.68,
+            "target_pct": 10.48,
+            "stop_pct": -7.68
+        },
+        {
+            "ticker": "BA",
+            "last": 155.88,
+            "target_pct": 9.42,
+            "stop_pct": -6.56
+        },
+        {
+            "ticker": "C",
+            "last": 110.68,
+            "target_pct": 9.41,
+            "stop_pct": -7.03
+        },
+        {
+            "ticker": "NWSA",
+            "last": 25.05,
+            "target_pct": 10.54,
+            "stop_pct": -7.39
+        },
+        {
+            "ticker": "MDGL",
+            "last": 379.1,
+            "target_pct": 10.39,
+            "stop_pct": -14.33
+        },
+        {
+            "ticker": "SSNC",
+            "last": 74.15,
+            "target_pct": 6.51,
+            "stop_pct": -5.08
+        },
+        {
+            "ticker": "BAC",
+            "last": 47.07,
+            "target_pct": 6.31,
+            "stop_pct": -5.4
+        }
+    ]
+}
