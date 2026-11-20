@@ -1,0 +1,129 @@
+{
+    "schema": 2,
+    "kind": "scan",
+    "market": "us",
+    "computed_at": "2026-11-20T13:06:54+01:00",
+    "scan_date": "2026-11-20",
+    "close_date": "2026-11-19",
+    "regime": {
+        "env": "neutre",
+        "env_label": "Indécis"
+    },
+    "n": 19,
+    "candidates": [
+        {
+            "ticker": "ASTS",
+            "last": 25.55,
+            "target_pct": 37.12,
+            "stop_pct": -31.39
+        },
+        {
+            "ticker": "MSTR",
+            "last": 86.13,
+            "target_pct": 44.13,
+            "stop_pct": -19.27
+        },
+        {
+            "ticker": "IREN",
+            "last": 14.41,
+            "target_pct": 47.87,
+            "stop_pct": -36.01
+        },
+        {
+            "ticker": "DDOG",
+            "last": 166.46,
+            "target_pct": 25.31,
+            "stop_pct": -16.13
+        },
+        {
+            "ticker": "SNDK",
+            "last": 94.4,
+            "target_pct": 34.07,
+            "stop_pct": -27.32
+        },
+        {
+            "ticker": "NOW",
+            "last": 88.84,
+            "target_pct": 26.34,
+            "stop_pct": -10.41
+        },
+        {
+            "ticker": "CRM",
+            "last": 183.31,
+            "target_pct": 20.44,
+            "stop_pct": -9.73
+        },
+        {
+            "ticker": "COIN",
+            "last": 108.87,
+            "target_pct": 27.45,
+            "stop_pct": -16.11
+        },
+        {
+            "ticker": "NVDA",
+            "last": 145.98,
+            "target_pct": 27.23,
+            "stop_pct": -16.31
+        },
+        {
+            "ticker": "UNH",
+            "last": 330.48,
+            "target_pct": 20.56,
+            "stop_pct": -9.65
+        },
+        {
+            "ticker": "CAT",
+            "last": 537.37,
+            "target_pct": 13.92,
+            "stop_pct": -10.42
+        },
+        {
+            "ticker": "KTOS",
+            "last": 29.65,
+            "target_pct": 23.83,
+            "stop_pct": -16.39
+        },
+        {
+            "ticker": "ALNY",
+            "last": 147.82,
+            "target_pct": 16.52,
+            "stop_pct": -11.0
+        },
+        {
+            "ticker": "MELI",
+            "last": 1355.49,
+            "target_pct": 15.88,
+            "stop_pct": -10.15
+        },
+        {
+            "ticker": "SKYD",
+            "last": 6.34,
+            "target_pct": 21.46,
+            "stop_pct": -13.77
+        },
+        {
+            "ticker": "BIDU",
+            "last": 66.38,
+            "target_pct": 16.03,
+            "stop_pct": -8.98
+        },
+        {
+            "ticker": "AFRM",
+            "last": 56.91,
+            "target_pct": 19.8,
+            "stop_pct": -13.77
+        },
+        {
+            "ticker": "GOOG",
+            "last": 270.77,
+            "target_pct": 7.07,
+            "stop_pct": -7.72
+        },
+        {
+            "ticker": "COF",
+            "last": 181.76,
+            "target_pct": 9.21,
+            "stop_pct": -7.66
+        }
+    ]
+}
