@@ -2,7 +2,7 @@
     "schema": 2,
     "kind": "scan",
     "market": "us",
-    "computed_at": "2026-11-21T00:07:01+01:00",
+    "computed_at": "2026-11-21T09:00:32+01:00",
     "scan_date": "2026-11-21",
     "close_date": "2026-11-20",
     "regime": {
@@ -27,7 +27,7 @@
             "ticker": "ASTS",
             "last": 23.27,
             "target_pct": 47.0,
-            "stop_pct": -33.3
+            "stop_pct": -33.31
         },
         {
             "ticker": "MSTR",
@@ -49,9 +49,9 @@
         },
         {
             "ticker": "NVDA",
-            "last": 125.64,
-            "target_pct": 44.44,
-            "stop_pct": -20.44
+            "last": 125.53,
+            "target_pct": 44.55,
+            "stop_pct": -20.46
         },
         {
             "ticker": "SMCI",
@@ -74,7 +74,7 @@
         {
             "ticker": "TER",
             "last": 204.78,
-            "target_pct": 25.33,
+            "target_pct": 25.32,
             "stop_pct": -21.71
         },
         {
@@ -135,7 +135,7 @@
             "ticker": "ASML",
             "last": 1266.22,
             "target_pct": 17.83,
-            "stop_pct": -11.66
+            "stop_pct": -11.67
         },
         {
             "ticker": "SHOP",
@@ -145,20 +145,20 @@
         },
         {
             "ticker": "CRM",
-            "last": 180.58,
-            "target_pct": 20.38,
+            "last": 180.62,
+            "target_pct": 20.36,
             "stop_pct": -10.03
         },
         {
             "ticker": "UNH",
-            "last": 340.3,
-            "target_pct": 15.94,
-            "stop_pct": -9.46
+            "last": 339.85,
+            "target_pct": 16.09,
+            "stop_pct": -9.47
         },
         {
             "ticker": "NOW",
-            "last": 87.63,
-            "target_pct": 24.02,
+            "last": 87.61,
+            "target_pct": 24.05,
             "stop_pct": -10.68
         },
         {
@@ -199,9 +199,9 @@
         },
         {
             "ticker": "SKYD",
-            "last": 6.21,
-            "target_pct": 22.75,
-            "stop_pct": -13.84
+            "last": 6.2,
+            "target_pct": 22.94,
+            "stop_pct": -13.85
         },
         {
             "ticker": "TRMB",
@@ -255,12 +255,12 @@
             "ticker": "MELI",
             "last": 1355.0,
             "target_pct": 14.24,
-            "stop_pct": -9.87
+            "stop_pct": -9.88
         },
         {
             "ticker": "GS",
-            "last": 790.91,
-            "target_pct": 12.93,
+            "last": 790.69,
+            "target_pct": 12.96,
             "stop_pct": -8.37
         },
         {
@@ -271,21 +271,21 @@
         },
         {
             "ticker": "COF",
-            "last": 178.68,
-            "target_pct": 10.48,
+            "last": 178.66,
+            "target_pct": 10.5,
             "stop_pct": -7.68
         },
         {
-            "ticker": "BA",
-            "last": 155.88,
-            "target_pct": 9.42,
-            "stop_pct": -6.56
+            "ticker": "C",
+            "last": 110.62,
+            "target_pct": 9.47,
+            "stop_pct": -7.03
         },
         {
-            "ticker": "C",
-            "last": 110.68,
+            "ticker": "BA",
+            "last": 155.89,
             "target_pct": 9.41,
-            "stop_pct": -7.03
+            "stop_pct": -6.56
         },
         {
             "ticker": "NWSA",
@@ -307,9 +307,9 @@
         },
         {
             "ticker": "BAC",
-            "last": 47.07,
-            "target_pct": 6.31,
-            "stop_pct": -5.4
+            "last": 47.04,
+            "target_pct": 6.37,
+            "stop_pct": -5.41
         }
     ]
 }
