@@ -2,20 +2,20 @@
     "schema": 2,
     "kind": "scan",
     "market": "eu",
-    "computed_at": "2026-11-21T09:00:31+01:00",
-    "scan_date": "2026-11-21",
+    "computed_at": "2026-11-23T07:04:10+01:00",
+    "scan_date": "2026-11-23",
     "close_date": "2026-11-20",
     "regime": {
-        "env": "neutre",
-        "env_label": "Indécis"
+        "env": "fav",
+        "env_label": "Favorable"
     },
-    "n": 21,
+    "n": 23,
     "candidates": [
         {
             "ticker": "ALO.PA",
-            "last": 8.5,
-            "target_pct": 38.07,
-            "stop_pct": -12.08
+            "last": 8.38,
+            "target_pct": 39.91,
+            "stop_pct": -12.35
         },
         {
             "ticker": "OUT1V.HE",
@@ -25,15 +25,15 @@
         },
         {
             "ticker": "RHM.DE",
-            "last": 696.0,
-            "target_pct": 26.06,
-            "stop_pct": -14.22
+            "last": 693.4,
+            "target_pct": 26.51,
+            "stop_pct": -14.27
         },
         {
             "ticker": "WLN.PA",
-            "last": 8.21,
-            "target_pct": 29.01,
-            "stop_pct": -17.77
+            "last": 8.07,
+            "target_pct": 31.1,
+            "stop_pct": -18.07
         },
         {
             "ticker": "METSO.HE",
@@ -43,15 +43,15 @@
         },
         {
             "ticker": "STLAP.PA",
-            "last": 3.14,
-            "target_pct": 20.05,
-            "stop_pct": -10.58
+            "last": 3.13,
+            "target_pct": 20.7,
+            "stop_pct": -10.64
         },
         {
             "ticker": "VOE.VI",
-            "last": 32.7,
-            "target_pct": 19.87,
-            "stop_pct": -10.42
+            "last": 32.56,
+            "target_pct": 20.37,
+            "stop_pct": -10.46
         },
         {
             "ticker": "IDR.MC",
@@ -66,40 +66,46 @@
             "stop_pct": -9.9
         },
         {
+            "ticker": "ANE.MC",
+            "last": 18.69,
+            "target_pct": 13.02,
+            "stop_pct": -8.44
+        },
+        {
             "ticker": "ANA.MC",
             "last": 184.7,
             "target_pct": 12.8,
             "stop_pct": -7.18
         },
         {
-            "ticker": "ANE.MC",
-            "last": 18.78,
-            "target_pct": 12.51,
-            "stop_pct": -8.34
-        },
-        {
             "ticker": "BNR.DE",
-            "last": 56.16,
-            "target_pct": 8.22,
-            "stop_pct": -5.31
-        },
-        {
-            "ticker": "FR.PA",
-            "last": 10.39,
-            "target_pct": 7.32,
-            "stop_pct": -7.81
+            "last": 55.86,
+            "target_pct": 8.77,
+            "stop_pct": -5.41
         },
         {
             "ticker": "PRX.AS",
-            "last": 30.59,
-            "target_pct": 14.45,
-            "stop_pct": -8.78
+            "last": 30.19,
+            "target_pct": 15.88,
+            "stop_pct": -9.0
+        },
+        {
+            "ticker": "FR.PA",
+            "last": 10.4,
+            "target_pct": 7.22,
+            "stop_pct": -7.81
+        },
+        {
+            "ticker": "KER.PA",
+            "last": 172.32,
+            "target_pct": 6.0,
+            "stop_pct": -7.43
         },
         {
             "ticker": "SAP.DE",
-            "last": 183.9,
-            "target_pct": 12.91,
-            "stop_pct": -6.96
+            "last": 183.68,
+            "target_pct": 13.04,
+            "stop_pct": -6.97
         },
         {
             "ticker": "NESTE.HE",
@@ -109,27 +115,33 @@
         },
         {
             "ticker": "PAH3.DE",
-            "last": 22.36,
-            "target_pct": 11.43,
-            "stop_pct": -5.9
+            "last": 22.28,
+            "target_pct": 11.82,
+            "stop_pct": -5.92
         },
         {
             "ticker": "VOW3.DE",
-            "last": 62.9,
-            "target_pct": 8.76,
-            "stop_pct": -6.24
+            "last": 62.62,
+            "target_pct": 9.23,
+            "stop_pct": -6.26
         },
         {
             "ticker": "TIT.MI",
             "last": 5.29,
-            "target_pct": 7.79,
-            "stop_pct": -6.03
+            "target_pct": 7.83,
+            "stop_pct": -6.07
+        },
+        {
+            "ticker": "BAS.DE",
+            "last": 49.36,
+            "target_pct": 7.82,
+            "stop_pct": -5.2
         },
         {
             "ticker": "GALP.LS",
-            "last": 18.29,
-            "target_pct": 7.04,
-            "stop_pct": -4.58
+            "last": 18.21,
+            "target_pct": 7.49,
+            "stop_pct": -4.6
         },
         {
             "ticker": "STERV.HE",
