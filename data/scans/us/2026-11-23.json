@@ -1,0 +1,51 @@
+{
+    "schema": 2,
+    "kind": "scan",
+    "market": "us",
+    "computed_at": "2026-11-24T13:07:08+01:00",
+    "scan_date": "2026-11-24",
+    "close_date": "2026-11-23",
+    "regime": {
+        "env": "neutre",
+        "env_label": "Indécis"
+    },
+    "n": 6,
+    "candidates": [
+        {
+            "ticker": "MSTR",
+            "last": 84.4,
+            "target_pct": 39.76,
+            "stop_pct": -21.05
+        },
+        {
+            "ticker": "INTU",
+            "last": 275.46,
+            "target_pct": 20.12,
+            "stop_pct": -11.05
+        },
+        {
+            "ticker": "UNH",
+            "last": 336.08,
+            "target_pct": 16.28,
+            "stop_pct": -10.1
+        },
+        {
+            "ticker": "BIDU",
+            "last": 65.33,
+            "target_pct": 15.77,
+            "stop_pct": -10.51
+        },
+        {
+            "ticker": "DKNG",
+            "last": 15.76,
+            "target_pct": 23.74,
+            "stop_pct": -19.22
+        },
+        {
+            "ticker": "EXE",
+            "last": 80.79,
+            "target_pct": 7.43,
+            "stop_pct": -6.2
+        }
+    ]
+}
