@@ -1,0 +1,45 @@
+{
+    "schema": 2,
+    "kind": "scan",
+    "market": "us",
+    "computed_at": "2026-11-25T13:07:25+01:00",
+    "scan_date": "2026-11-25",
+    "close_date": "2026-11-24",
+    "regime": {
+        "env": "neutre",
+        "env_label": "Indécis"
+    },
+    "n": 5,
+    "candidates": [
+        {
+            "ticker": "MSTR",
+            "last": 77.55,
+            "target_pct": 47.98,
+            "stop_pct": -22.3
+        },
+        {
+            "ticker": "SNDK",
+            "last": 77.95,
+            "target_pct": 47.61,
+            "stop_pct": -35.57
+        },
+        {
+            "ticker": "COIN",
+            "last": 102.35,
+            "target_pct": 27.16,
+            "stop_pct": -16.19
+        },
+        {
+            "ticker": "KTOS",
+            "last": 28.21,
+            "target_pct": 23.62,
+            "stop_pct": -16.4
+        },
+        {
+            "ticker": "BIDU",
+            "last": 63.51,
+            "target_pct": 17.93,
+            "stop_pct": -10.35
+        }
+    ]
+}
