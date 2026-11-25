@@ -1,0 +1,63 @@
+{
+    "schema": 2,
+    "kind": "scan",
+    "market": "eu",
+    "computed_at": "2026-11-25T07:02:56+01:00",
+    "scan_date": "2026-11-25",
+    "close_date": "2026-11-24",
+    "regime": {
+        "env": "neutre",
+        "env_label": "Indécis"
+    },
+    "n": 8,
+    "candidates": [
+        {
+            "ticker": "ALO.PA",
+            "last": 8.59,
+            "target_pct": 27.6,
+            "stop_pct": -10.48
+        },
+        {
+            "ticker": "OUT1V.HE",
+            "last": 3.21,
+            "target_pct": 21.93,
+            "stop_pct": -11.47
+        },
+        {
+            "ticker": "STLAP.PA",
+            "last": 3.1,
+            "target_pct": 19.88,
+            "stop_pct": -10.31
+        },
+        {
+            "ticker": "VOE.VI",
+            "last": 32.22,
+            "target_pct": 18.7,
+            "stop_pct": -10.3
+        },
+        {
+            "ticker": "BNR.DE",
+            "last": 55.3,
+            "target_pct": 8.58,
+            "stop_pct": -5.3
+        },
+        {
+            "ticker": "TYRES.HE",
+            "last": 12.65,
+            "target_pct": 8.57,
+            "stop_pct": -5.74
+        },
+        {
+            "ticker": "NESTE.HE",
+            "last": 23.75,
+            "target_pct": 14.08,
+            "stop_pct": -6.67
+        },
+        {
+            "ticker": "METSB.HE",
+            "last": 2.75,
+            "target_pct": 7.25,
+            "stop_pct": -4.93
+        }
+    ]
+}
