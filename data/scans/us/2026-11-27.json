@@ -1,0 +1,27 @@
+{
+    "schema": 2,
+    "kind": "scan",
+    "market": "us",
+    "computed_at": "2026-11-28T00:03:57+01:00",
+    "scan_date": "2026-11-28",
+    "close_date": "2026-11-27",
+    "regime": {
+        "env": "neutre",
+        "env_label": "Indécis"
+    },
+    "n": 2,
+    "candidates": [
+        {
+            "ticker": "MSTR",
+            "last": 81.62,
+            "target_pct": 32.93,
+            "stop_pct": -19.92
+        },
+        {
+            "ticker": "NTNX",
+            "last": 46.5,
+            "target_pct": 25.41,
+            "stop_pct": -14.84
+        }
+    ]
+}
