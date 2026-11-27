@@ -1,0 +1,27 @@
+{
+    "schema": 2,
+    "kind": "scan",
+    "market": "eu",
+    "computed_at": "2026-11-27T07:16:46+01:00",
+    "scan_date": "2026-11-27",
+    "close_date": "2026-11-26",
+    "regime": {
+        "env": "neutre",
+        "env_label": "Indécis"
+    },
+    "n": 2,
+    "candidates": [
+        {
+            "ticker": "OUT1V.HE",
+            "last": 3.27,
+            "target_pct": 15.27,
+            "stop_pct": -7.57
+        },
+        {
+            "ticker": "CBK.DE",
+            "last": 33.29,
+            "target_pct": 14.17,
+            "stop_pct": -7.38
+        }
+    ]
+}
